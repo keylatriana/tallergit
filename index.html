@@ -8,12 +8,8 @@
     <title>Prueba</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2? family = Oswald & display = swap" rel="hoja de estilo ">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" rel=”preload”>
+   
     <!--link rel="stylesheet" href="Css/fontawesome.scss"-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
@@ -50,7 +46,7 @@
         </section>
 
         <article class="foto">
-            <img class="foto-perfil" src="/image/foto-perfil.png" alt="">
+            <img class="foto-perfil lazy" src="/image/foto-perfil.png" data-scr="/image/foto-perfil.png" style="width:400px; height: 370px;" alt="A lazy image">
         </article>
     </header>
     <nav>
@@ -67,8 +63,11 @@
             <li class="menu__links "><i class="bi bi-briefcase"></i></li><br>
             <li class="menu__links "><i class="bi bi-card-text"></i></li><br>
             <li class="menu__links "><i class="bi bi-chat-dots"></i></li><br>
-            <article class="banderas"><img class="img-ban" src="/image/bandera-ing.jpg" alt="">
-                <img class="img-ban" src="/image/bandera.jpg" alt="">
+            <article class="banderas">
+                
+                
+                <img class="img-ban" src="/image/bandera-ing.jpg" data-scr="/image/bandera-ing.jpg" alt="">
+                <img class="img-ban" src="/image/bandera.jpg" data-scr="/image/bandera.jpg" alt="">
             </article>
 
         </ul>
@@ -82,20 +81,20 @@
     </nav>
     <main class="container-help">
         <section class="saludos1">
-            <img class="help-icono" src="/image//Transparent zoomed 1.png" alt="">
+            <img class="help-icono" src="/image/computadora.png" alt="">
 
         </section>
 
         <section class="foto1">
             <article class="section1">
-                <div class="section1-1">
+                <acticle class="section1-1">
                     <h4 class="numero"><b>120+</b></h4>
                     <h6 style="color: white;"><b>Completed Projects</b></h6><br>
-                </div>
-                <div class="section1-2">
+                </article>
+                <article class="section1-2">
                     <img class="star" src="/image/star.png" alt=""><br>
                     <h6 style="color: white;"><b>Positive Review’s</b></h6>
-                </div>
+                </article>
             </article>
 
             <h1 class="section1-3" style="color: white;"><strong>Glad to Help You!</strong></h1><br>
@@ -108,7 +107,7 @@
     <h1 class="titulo">Why Hire Me?</h1>
     <section class="contrato" >
         <article class="card" style="width: 18rem;">
-            <img class="card-img-top img-contrato" src="/image/123.png" alt="Card image cap">
+            <img class="card-img-top img-contrato" src="/image/comunicar.png" data-scr="/image/comunicar.png" alt="Card image cap">
             <div class="card-body">
                 <h5 style="color: black;"><b>Communicative</b></h5>
                 <h2> Amet minim mollit non <br>
@@ -118,7 +117,7 @@
         </article>
 
         <article class="card" style="width: 18rem;">
-            <img class="card-img-top img-contrato" src="/image/profesional.png" alt="Card image cap">
+            <img class="card-img-top img-contrato" src="/image/profesional.png" data-scr="/image/profesional.png" alt="Card image cap">
             <div class="card-body">
                 <h5 style="color: black;"><b>Professional</b></h5>
                 <h2> Amet minim mollit non <br>
@@ -127,7 +126,7 @@
             </div>
         </article>
         <article class="card" style="width: 18rem;">
-            <img class="card-img-top img-contrato" src="/image/colaboracion.png" alt="Card image cap">
+            <img class="card-img-top img-contrato" src="/image/colaboracion.png" data-scr="/image/colaboracion.png" alt="Card image cap">
             <div class="card-body">
                 <h5 style="color: black;"><b>Collaborative​</b></h5>
                 <h2> Amet minim mollit non <br>
@@ -136,7 +135,7 @@
             </div>
         </article>
         <article class="card" style="width: 18rem;">
-            <img class="card-img-top img-contrato" src="/image/favorito.png" alt="Card image cap">
+            <img class="card-img-top img-contrato" src="/image/favorito.png" data-scr="/image/favorito.png" alt="Card image cap">
             <div class="card-body">
                 <h5 style="color: black;"><b> Client’s Favourite</b></h5>
                 <h2> Amet minim mollit non <br>
@@ -154,22 +153,22 @@
     <section class="container">
         <article class="row">
             <div class="col-lg-4  ">
-                <img class="galeria" src="/image/Image.png" alt="Portafolio de imagenes">
+                <img class="galeria" src="/image/plataforma.jpg" data-scr="/image/plataforma.jpg" alt="Portafolio de imagenes">
             </div>
             <div class="col-lg-4 ">
-                <img class="galeria" src="/image/Image (1).png" alt="Portafolio de imagenes">
+                <img class="galeria" src="/image/company.jpg" data-scr="/image/company.jpg" alt="Portafolio de imagenes">
             </div>
             <div class="col-lg-4 ">
-                <img class="galeria" src="/image/Image (2).png" alt="Portafolio de imagenes">
+                <img class="galeria" src="/image/contratos.jpg" data-scr="/image/contratos.jpg" alt="Portafolio de imagenes">
             </div>
             <div class="col-lg-4  ">
-                <img class="galeria" src="/image/Image (3).png" alt="Portafolio de imagenes">
+                <img class="galeria" src="/image/menu.jpg" data-scr="/image/menu.jpg" alt="Portafolio de imagenes">
             </div>
             <div class="col-lg-4 ">
-                <img class="galeria" src="/image/Image (4).png" alt="Portafolio de imagenes">
+                <img class="galeria" src="/image/mockup.jpg" data-scr="/image/mockup.jpg" alt="Portafolio de imagenes">
             </div>
             <div class="col-lg-4 ">
-                <img class="galeria" src="/image/Image (5).png" alt="Portafolio de imagenes">
+                <img class="galeria" src="/image/invitacion.jpg" data-scr="/image/invitacion.jpg" alt="Portafolio de imagenes">
             </div>
 
         </article>
@@ -188,7 +187,7 @@
                             <div class="card-body">
                                 <p class="card-text">One of the best additions to our feedback loop has been the <br>
                                     company-wide adoption of Fellow.</p><br>
-                                <img class="icono-perfil" src="/image/Picture.png">
+                                <img class="icono-perfil" src="/image/chico.jpg">
                                 <h5 class="nombre ">Ronald Richards</h5>
 
                                 <img class="puntaje" src="/image/puntaje.png">
@@ -202,7 +201,7 @@
                             <div class="card-body">
                                 <p class="card-text">It provides an amazing platform for constant conversations and
                                     direct feedback between managers.</p><br>
-                                <img class="icono-perfil" src="/image/chica.png">
+                                <img class="icono-perfil" src="/image/chica.jpg">
                                 <h5 class="nombre ">Ronald Richards</h5>
 
                                 <img class="puntaje" src="/image/puntaje.png">
@@ -215,7 +214,7 @@
                             <div class="card-body">
                                 <p class="card-text">One of the best additions to our feedback loop has been the <br>
                                     company-wide adoption of Fellow.</p><br>
-                                <img class="icono-perfil" src="/image/Picture.png">
+                                <img class="icono-perfil" src="/image/chico.jpg">
                                 <h5 class="nombre ">Ronald Richards</h5>
 
                                 <img class="puntaje" src="/image/puntaje.png">
@@ -229,7 +228,7 @@
                             <div class="card-body">
                                 <p class="card-text">It provides an amazing platform for constant conversations and
                                     direct feedback between managers.</p><br>
-                                <img class="icono-perfil" src="/image/chica.png">
+                                <img class="icono-perfil" src="/image/chica.jpg">
                                 <h5 class="nombre ">Ronald Richards</h5>
 
                                 <img class="puntaje" src="/image/puntaje.png">
@@ -244,7 +243,7 @@
                                 <p class="card-text">One of the best additions to our feedback loop has been the
                                     <br> company-wide adoption of Fellow.
                                 </p><br>
-                                <img class="icono-perfil" src="/image/Picture.png">
+                                <img class="icono-perfil" src="/image/chico.jpg">
                                 <h5 class="nombre ">Ronald Richards</h5>
 
                                 <img class="puntaje" src="/image/puntaje.png">
@@ -380,7 +379,7 @@
 
                 <div class="carousel__elemento2 prueba">
                     <div class="card2">
-                        <img class="card-img-top" src="/image/bog1.png" alt="Slider del Blog">
+                        <img class="card-img-top" src="/image/portal.jpg" alt="Slider del Blog">
                         <div class="card-body">
                             <h5 class="card-title">How to make web tempates</h5>
                             <p class="card-text1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Vitae
@@ -391,7 +390,7 @@
                 </div>
                 <div class="carousel__elemento2 prueba">
                     <div class="card2">
-                        <img class="card-img-top" src="/image/blog2.png" alt="Slider del Blog">
+                        <img class="card-img-top" src="/image/triangulo.jpg" alt="Slider del Blog">
                         <div class="card-body">
                             <h5 class="card-title">How to make web tempates</h5>
                             <p class="card-text1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Vitae
@@ -403,7 +402,7 @@
 
                 <div class="carousel__elemento2 prueba">
                     <div class="card2">
-                        <img class="card-img-top" src="/image/blog3.png" alt="Slider del Blog">
+                        <img class="card-img-top" src="/image/barrio.jpg" alt="Slider del Blog">
                         <div class="card-body">
                             <h5 class="card-title">How to make web tempates</h5>
                             <p class="card-text1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Vitae
@@ -414,7 +413,7 @@
                 </div>
                 <div class="carousel__elemento2 prueba">
                     <div class="card2">
-                        <img class="card-img-top" src="/image/bog1.png" alt="Slider del Blog">
+                        <img class="card-img-top" src="/image/portal.jpg" alt="Slider del Blog">
                         <div class="card-body">
                             <h5 class="card-title">How to make web tempates</h5>
                             <p class="card-text1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Vitae
@@ -446,7 +445,7 @@
 
     </footer>
 
-  
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js" integrity="sha256-chZm2VfM5r7hxFu6TGArcJmYU+Y19fT+mg58IBVCtdU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
     <script src="js/desplegable.js"></script>
     <script src="js/carrousel.js"></script>

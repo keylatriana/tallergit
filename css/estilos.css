@@ -8,6 +8,7 @@
 :focus{
     outline: none;
 }
+ 
 
 
 /*Css del header de la pagina*/
@@ -224,14 +225,11 @@ body {
     width: 91%;
     max-width: 500px;
     padding: 20px;
-
     margin-left: 60px;
     
 }
 .foto-perfil{
     top:20px;
-    width: 400px;
-    height: 370px;
     margin-left: 50px;
 }
 .container-help{
@@ -267,11 +265,12 @@ body {
 }
 .section1{
    display: flex;
-   margin-left: 20px;
+   margin-left: 0px;
 }
 .section1-1,.section1-2{
     margin-left: 0px;
     width: 200px;
+ 
    
  }
  .section1-3, .section1-31{
@@ -279,8 +278,6 @@ body {
     width: 500px;
     margin-left: 30px;
     
-    
-   
  }
  .parr{
     display:flex;
@@ -289,16 +286,16 @@ body {
  }
 .numero{
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-weight: bold;
     font-style:inherit;
     font-size: 65px;
 }
 .star{
-    margin-top: 25px;
+    margin-top: 1px;
     margin-bottom: 31px;
-    width: 130px;
-    height: 30px;
+    width:130px ; 
+    height:30px
 }
 
 .contrato{
@@ -310,7 +307,6 @@ body {
     display: flex;
     opacity: 0.9;
     border-radius: 35px;
-    
 }
 .titulo{
     justify-content: center;
@@ -657,6 +653,7 @@ footer{
    color: rgb(36, 33, 33);
    font-size: 18px;
    font-weight: 600;
+   font-family: 'Popins',sans-serif;
 }
 
 .footer-center{
@@ -684,13 +681,21 @@ footer{
 }
 
 @media screen and (max-width: 540px){
-  
+    html {
+        margin-left: calc(100vw - 100%);
+        margin-right: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+     }
     nav{
     position: fixed;
     z-index: 20;
     top: 0px;
     left: 0px;
-    width: 70%;
+    width: 100%;
     height: 56px;
     border-top-right-radius: 0px ;
     border-bottom-right-radius: 0px;
@@ -796,12 +801,13 @@ footer{
      text-align: center;
  }
  .section1{
-     display: block;
+     display: flex;
  }
  .section1-1{
      width: 200px;
-     margin-left: -215px;
+     margin-left: -210px;
      text-align: center;
+  
      
  }
  .section1-2{
@@ -972,19 +978,24 @@ footer{
     height: 170px;
     width: 106%;
     background-color:  #F1F1F1;
+
 }
 .footer-left{
   
     text-align: center;
+    margin-left: -40px;
 }
 
 .footer-center{
+   
     margin-top: 10%;
     width: 400px;
     text-align: center;
+    margin-left: -40px;
    }
 
 .footer-right{
+    margin-left: -40px;
     margin-top: -85px;
     width: 400px;
     text-align:center;
