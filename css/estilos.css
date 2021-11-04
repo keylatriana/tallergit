@@ -50,14 +50,26 @@ h1{
 .btn-facebook{
     background-color: #728CF7;
 }
+.btn-facebook:hover{
+    background-color: rgb(40, 40, 201);
+}
 .btn-instagram{
     background-color: #68AAF3;
+}
+.btn-instagram:hover{
+    background-color: rgb(20, 197, 220);
 }
 .btn-telegram{
     background-color: #FF9B70;
 }
+.btn-telegram:hover{
+    background-color: #df7a4f;
+}
 .btn-twitter{
     background-color: #E17094;
+}
+.btn-twitter:hover{
+    background-color: rgb(219, 14, 82) ;
 }
 
 
@@ -298,7 +310,7 @@ nav .menu_desplazante .line3{
     font-size: 55px;
     margin-left: -20px;
     font-weight: bolder;
-    
+    color: white;
  }
  .parr{
     display:flex;
@@ -385,13 +397,18 @@ main h4, h6{
     margin-top: 20px;
     font-weight: 500;
     margin-left: 73%;
-  
+    color: black;
+    text-decoration: none;
 }
 .seguir-viendo1{
     margin-top: 20px;
     font-weight: 500;
     margin-left: 82%;
-  
+    color: black;
+    text-decoration: none;
+}
+.seguir-viendo:hover, .seguir-viendo1:hover{
+    text-decoration: none;
 }
 .galeria{
     width: 100%;
