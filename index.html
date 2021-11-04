@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Author: Keyla Triana, Category: practica">
     <title>Prueba</title>
    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href = "https://fonts.googleapis.com/css2? family = Oswald & display = swap" rel = "hoja de estilo ">
- 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <!--link rel="stylesheet" href="Css/fontawesome.scss"-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="preload">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" rel="preload">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css" rel="preload">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" rel="preload">
     <!--Estilos para css-->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel=" icon " href="image/Nivelics.ico">
@@ -25,512 +20,426 @@
 
 <body class="container-body"> 
     <header class="header">
-        <section class="saludos">
-            <h4><b>Hi!</b></h4><br>
-            <h1 class="titulo-reza"><strong>I’m Mohammad Reza. <br>
-                a Frontend developer.</strong></h1><br>
-            <h8><strong>Frontend developer based in tehran, Iran.<br>
+        <div class="container-saludos">
+
+            <h2>Hi!</h2>
+            <h1>I’m Mohammad Reza. 
+                a Frontend developer.</h1>
+            <p class="parrafo-saludos" >Frontend developer based in tehran, Iran.
                 I am coding with a clean and beautiful problem 
-                <br>solving in mind.</strong></h2> <br>
-                <article class="follow">
-                    <br><p>Follow me</p>
-                   <a style="background-color: #728CF7;"><i class="bi bi-facebook"></i></a>
-                   <a style="background-color: #E17094;"><i class="bi bi-twitter"></i></a>
-                   <a style="background-color: #68AAF3;"><i class="bi bi-instagram"></i></a>
-                   <a style="background-color: #FF9B70;"><i class="bi bi-telegram"></i></a>
-                </article>
-                <article class="botones">
-                    <input type="submit" name=""  name="" class="btn btn-warning btn-send"  value="Send Request">
-                    <input type="submit" name=""  name="" class="btn btn-warning btn-descarga"  value="Download CV">
-                
-                </article>
-            </section>
-        
-        <section class="foto">
-            <img class="foto-perfil" src="/image/foto-perfil.png" alt="">
-        </section>
+                solving in mind.</p> 
+                <div class="follow">
+                    <p>Follow me</p>
+                   <a class="btn-facebook" aria-label="Ir a Facebook" href="https://www.facebook.com/Nivelics" ><span class="bi bi-facebook"></span></a>
+                   <a class="btn-twitter" aria-label="Ir a Twitter" href="https://twitter.com/Nivelics"><span class="bi bi-twitter"></span></a>
+                   <a class="btn-instagram" aria-label="Ir a Instagram" href="https://www.instagram.com/nivelics/?hl=es"><span class="bi bi-instagram"></span></a>
+                   <a class="btn-telegram" aria-label="Ir a Telegram" href="https://t.me/keylatriana"><span class="bi bi-telegram"></span></a>
+                </div>
+                    <button class="btn btn-warning btn-send"  value="Send Request">Send Request</button>
+                    <button class="btn btn-warning btn-descarga"  value="Download CV">Download CV</button>
+        </div>    
+          
+              <img class=" foto" src="/image/foto-perfil.png" data-scr="/image/foto-perfil.png" alt="" width= "362px"; height="330px;">
+       
      
     </header>
     <nav class="nav">
-      
-        <article class="titulo-logo">
-            <strong>logo</strong>
-            <hr style="background-color: white;">
-        <article>
-        
+        <h2 class="titulo-logo">logo</h2>
+        <hr/>  
         <input id="nav-toggle" type="checkbox">
-         
-           <ul class=" nav-item links" id="barra__menu">
-          
-           <li class="menu__links"><i class="bi bi-house-door"></i></li> <br>
-           <li class="menu__links "><i class="bi bi-person"></i></li> <br>
-           <li class="menu__links "><i class="bi bi-briefcase"></i></li><br>
-           <li class="menu__links "><i class="bi bi-card-text"></i></li><br>
-           <li class="menu__links "><i class="bi bi-chat-dots"></i></li><br>
-           <div 
-           class="banderas"><img class="img-ban" src="/image/bandera-ing.jpg" alt="">
-            <img class="img-ban" src="/image/bandera.jpg" alt=""> 
-        </div>          
-        
-        </ul>
-    
         <label for="nav-toggle" class="menu_desplazante">
             <div class="line"></div>
             <div class="line2"></div>
             <div class="line3"></div>
         </label>
+        <ul class=" nav-item links" id="barra__menu">
+            <li class="menu__links"><i class="bi bi-house-door"></i></li>
+            <li class="menu__links "><i class="bi bi-person"></i></li>
+            <li class="menu__links "><i class="bi bi-briefcase"></i></li>
+            <li class="menu__links "><i class="bi bi-card-text"></i></li>
+            <li class="menu__links "><i class="bi bi-chat-dots"></i></li>
+           
+        
+        </ul>
+        <div class="banderas">
+            <img class="img-ban" src="/image/bandera-ing.jpg" data-scr="/image/bandera-ing.jpg"  width="25px;" height="17px;" alt="">
+            <img class="img-ban" src="/image/bandera.jpg" data-scr="/image/bandera.jpg"  width="25px;" height="17px;" alt="">
+        </div>
+  
+           
     
      </nav>
     <main class="main">
         <section class="container-help">
-            <article class="saludos1">
-                <img class="help-icono" src="/image//Transparent zoomed 1.png" alt="">
-    
+        
+            <img class="help-icono" src="/image/computadora.png" data-scr="/image/computadora.png" width= "430px;"
+            height= "329px;" alt="">
+        
+            <div class="section1-1">
+                <h2 class="numero">120+</h2>
+                <p>Completed Projects</p>
+            </div>
+            <article class="section1">
+                <div class="section1-2">
+                    <img class="star" src="/image/star.png" data-scr="/image/star.png" width= "130px;"
+                    height= "30px;" alt="">
+                    <p>Positive Review’s</p>
+                </div>
+        
+                <h2 class="section1-3">Glad to Help You!</h2>
+                <p class="parr">As a web developer, I'm very keen on learning
+                    new and pioneering technologies, programming languages, and development
+                    techniques.</p>
             </article>
-    
-            <article class="foto1">
-                <article class="section1">
-                    <div class="section1-1">
-                        <h4 class="numero"><b>120+</b></h4>
-                        <h6 style="color: white;"><b>Completed Projects</b></h6><br>
+        </section>
+
+       <!-- Sección ¿Por qué contratarme?--> 
+
+        <h2 class="titulo">Why Hire Me?</h2>
+        <section class="contrato">
+            <article class="card">
+                <img class="card-img-top img-contrato" src="/image/comunicar.png"  data-scr="/image/comunicar.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3>Communicative</h3>
+                    <p> Amet minim mollit non
+                        deserunt ullamco est sit
+                        aliqua dolor do amet sint. </p>
+                </div>
+            </article>
+            <article class="card">
+                <img class="card-img-top img-contrato" src="/image/profesional.png" data-scr="/image/profesional.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3>Professional</h3>
+                    <p> Amet minim mollit non 
+                        deserunt ullamco est sit 
+                        aliqua dolor do amet sint. </p>
+                </div>
+            </article>
+            <article class="card">
+                <img class="card-img-top img-contrato" src="/image/colaboracion.png" data-scr="/image/colaboracion.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3>Collaborative​</h3>
+                    <p> Amet minim mollit non 
+                        deserunt ullamco est sit 
+                        aliqua dolor do amet sint. </h2>
+                    </p>
+                </div>
+            </article>
+            <article class="card">
+                    <img class="card-img-top img-contrato" src="/image/favorito.png" data-scr="/image/favorito.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3> Client’s Favourite</h3>
+                        <p> Amet minim mollit non 
+                            deserunt ullamco est sit 
+                            aliqua dolor do amet sint. </p>
                     </div>
-                    <div class="section1-2">
-                        <img class="star" src="/image/star.png" alt=""><br>
-                        <h6 style="color: white;"><b>Positive Review’s</b></h6>
-                    </div>
-                </article>
-    
-                <h1 class="section1-3" style="color: white;"><strong>Glad to Help You!</strong></h1><br>
-                <h8 class="parr" style="color: white;">As a web developer, I'm very keen on learning<br>
-                    new and pioneering technologies,<br>
-                    programming languages, and development <br>
-                    techniques.</h2> <br>
                 </article>
         </section>
-    </main>
-    <footer class="footer">
-       footr
-    </footer>
 
-  <!--
-    <div class="container-perfil">
-        <div class="saludos">
-            <h4><b>Hi!</b></h4><br>
-            <h1 class="titulo-reza"><strong>I’m Mohammad Reza. <br>
-                a Frontend developer.</strong></h1><br>
-            <h8><strong>Frontend developer based in tehran, Iran.<br>
-                I am coding with a clean and beautiful problem 
-                <br>solving in mind.</strong></h2> <br>
-                <div class="follow">
-                    <br><p>Follow me</p>
-                   <a style="background-color: #728CF7;"><i class="bi bi-facebook"></i></a>
-                   <a style="background-color: #E17094;"><i class="bi bi-twitter"></i></a>
-                   <a style="background-color: #68AAF3;"><i class="bi bi-instagram"></i></a>
-                   <a style="background-color: #FF9B70;"><i class="bi bi-telegram"></i></a>
-                </div>
-                <div class="botones">
-                    <input type="submit" name=""  name="" class="btn btn-warning btn-send"  value="Send Request">
-                    <input type="submit" name=""  name="" class="btn btn-warning btn-descarga"  value="Download CV">
-                
-                </div>
-        </div>
-        
-        <div class="foto">
-            <img class="foto-perfil" src="/image/foto-perfil.png" alt="">
-            </div>
-    </div>
-    <nav>
-        <div class="titulo-logo">
-            <strong>logo</strong>
-            <hr style="background-color: white;">
-        </div>
-
-        <input id="nav-toggle" type="checkbox">
-           <ul class=" nav-item links" id="barra__menu">
-          
-            <li class="menu__links"><i class="bi bi-house-door"></i></li> <br>
-           <li class="menu__links "><i class="bi bi-person"></i></li> <br>
-           <li class="menu__links "><i class="bi bi-briefcase"></i></li><br>
-           <li class="menu__links "><i class="bi bi-card-text"></i></li><br>
-           <li class="menu__links "><i class="bi bi-chat-dots"></i></li><br>
-           <div 
-           class="banderas"><img class="img-ban" src="/image/bandera-ing.jpg" alt="">
-            <img class="img-ban" src="/image/bandera.jpg" alt=""> 
-        </div>          
-           
-        </ul>
-         
-        <label for="nav-toggle" class="menu_desplazante">
-            <div class="line"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </label>
-       
-    </nav>
-    <div class="container-help">
-        <div class="saludos1">
-            <img class="help-icono" src="/image//Transparent zoomed 1.png" alt="">
-    
-        </div>
-    
-        <div class="foto1">
-            <div class="section1">
-                <div class="section1-1">
-                    <h4 class="numero"><b>120+</b></h4>
-                    <h6 style="color: white;"><b>Completed Projects</b></h6><br>
-                </div>
-                <div class="section1-2">
-                    <img class="star" src="/image/star.png" alt=""><br>
-                    <h6 style="color: white;"><b>Positive Review’s</b></h6>
-                </div>
-            </div>
-    
-            <h1 class="section1-3" style="color: white;"><strong>Glad to Help You!</strong></h1><br>
-            <h8 class="parr" style="color: white;">As a web developer, I'm very keen on learning<br>
-                new and pioneering technologies,<br>
-                programming languages, and development <br>
-                techniques.</h2> <br>
-        </div>
-    </div>
-    <h1 class="titulo">Why Hire Me?</h1> 
-    <div class="contrato">
-        <div class="card" style="width: 18rem;">
-       <img class="card-img-top img-contrato" src="/image/123.png" alt="Card image cap">
-       <div class="card-body">
-        <h5 style="color: black;"><b>Communicative</b></h5>
-        <h2> Amet minim mollit non <br>
-             deserunt ullamco est sit <br>
-              aliqua dolor do amet sint. </h2>
-       </div>
-        </div>
-       
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-contrato" src="/image/profesional.png" alt="Card image cap">
-            <div class="card-body">
-             <h5 style="color: black;"><b>Professional</b></h5>
-             <h2> Amet minim mollit non <br>
-                  deserunt ullamco est sit <br>
-                   aliqua dolor do amet sint. </h2>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top img-contrato" src="/image/colaboracion.png" alt="Card image cap">
-                <div class="card-body">
-                 <h5 style="color: black;"><b>Collaborative​</b></h5>
-                 <h2> Amet minim mollit non <br>
-                      deserunt ullamco est sit <br>
-                       aliqua dolor do amet sint. </h2>
-                    </div>
-                </div>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top img-contrato" src="/image/favorito.png" alt="Card image cap">
-                <div class="card-body">
-                 <h5 style="color: black;"><b> Client’s Favourite</b></h5>
-                 <h2> Amet minim mollit non <br>
-                      deserunt ullamco est sit <br>
-                       aliqua dolor do amet sint. </h2>
-                    </div>
-                </div>
-     
-    </div>
+     <!--Sección Portafolio -->
         <div class="portafolio"> 
-            <h1 style="color: black;"><b>Portafolio</b></h1>
-            <h2 class="seguir-viendo" style="color:black;">see more <i class="bi bi-arrow-right-short"></i></h2>
+            <h2>Portafolio</h2>
+            <a class="seguir-viendo"href="#"  aria-label="Ir a otros Portafolios">see more <i class="bi bi-arrow-right-short"></i></a>
 
         </div>
         <section class="container">
-        <div class="row">
+        <article class="row">
         <div class="col-lg-4  ">
-            <img class="galeria" src="/image/Image.png" alt="Portafolio de imagenes">
+            <img class="galeria" src="/image/plataforma.jpg" data-scr="/image/plataforma.jpg" alt="Portafolio de imagenes">
           </div>
           <div class="col-lg-4 ">
-            <img class="galeria" src="/image/Image (1).png" alt="Portafolio de imagenes">
+            <img class="galeria" src="/image/company.jpg" data-scr="/image/company.jpg" alt="Portafolio de imagenes">
           </div>
           <div class="col-lg-4 ">
-            <img class="galeria" src="/image/Image (2).png" alt="Portafolio de imagenes">
+            <img class="galeria" src="/image/contratos.jpg" data-scr="/image/contratos.jpg" alt="Portafolio de imagenes">
           </div>
           <div class="col-lg-4  ">
-            <img class="galeria"src="/image/Image (3).png" alt="Portafolio de imagenes">
+            <img class="galeria"src="/image/menu.jpg" data-scr="/image/menu.jpg" alt="Portafolio de imagenes">
           </div>
           <div class="col-lg-4 ">
-            <img class="galeria"src="/image/Image (4).png" alt="Portafolio de imagenes">
+            <img class="galeria"src="/image/mockup.jpg" data-scr="/image/mockup.jpg" alt="Portafolio de imagenes">
           </div>
           <div class="col-lg-4 ">
-            <img class="galeria" src="/image/Image (5).png" alt="Portafolio de imagenes">
+            <img class="galeria" src="/image/invitacion.jpg" data-scr="/image/invitacion.jpg" alt="Portafolio de imagenes">
           </div>
           
-        </div> 
-    </section>
+        </article> 
+        </section>
 
-    <div class="usuarios">
-        <h1 class="titulo1"> I’m Loved By Users And <br> Clients Worldwide </h1>
-    
-        <div class="carousel1">
-            <div class="carousel__contenedor">
-                <button aria-label="Anterior" class="carousel__anterior"><i class="fa fa-chevron-left"></i></button>
-                <div class="carousel__lista">
-    
-                    <div class="carousel__elemento prueba">
-                        <div class="card3" >
-                            <div class="card-body">
-                                <p class="card-text">One of the best additions to our feedback loop has been the <br>
-                                    company-wide adoption of Fellow.</p><br>
-                                <img class="icono-perfil" src="/image/Picture.png">
-                                <h5 class="nombre ">Ronald Richards</h5>
-    
-                                <img class="puntaje" src="/image/puntaje.png">
-                                <h6 class="cargo">UI/UX Designer</h6>
-    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel__elemento prueba">
-                        <div class="card3" >
-                            <div class="card-body">
-                                <p class="card-text">It provides an amazing platform for constant conversations and direct feedback between managers.</p><br>
-                                <img class="icono-perfil" src="/image/chica.png">
-                                <h5 class="nombre ">Ronald Richards</h5>
-    
-                                <img class="puntaje" src="/image/puntaje.png">
-                                <h6 class="cargo">UI/UX Designer</h6>
-                            </div>
-                        </div>
-                    </div>
+        <!--Sección de clientes-->
+        <section class="usuarios">
+            <h2 class="titulo1"> I’m Loved By Users AndClients Worldwide </h2>
+        
+            <article class="carousel1">
+                <div class="carousel__contenedor">
+                    <button aria-label="Anterior" class="carousel__anterior"><i class="bi bi-caret-left-fill"></i></button>
+                    <div class="carousel__lista">
+        
                         <div class="carousel__elemento prueba">
-                            <div class="card3" >
+                            <div class="card3">
                                 <div class="card-body">
                                     <p class="card-text">One of the best additions to our feedback loop has been the <br>
-                                        company-wide adoption of Fellow.</p><br>
-                                    <img class="icono-perfil" src="/image/Picture.png">
-                                    <h5 class="nombre ">Ronald Richards</h5>
-    
-                                    <img class="puntaje" src="/image/puntaje.png">
-                                    <h6 class="cargo">UI/UX Designer</h6>
-    
+                                        company-wide adoption of Fellow.</p>
+                                    <img class="icono-perfil" src="/image/chico.jpg" alt="Imagen del usuario">
+                                    <h3 class="nombre ">Ronald Richards</h3>
+        
+                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                    <h4 class="cargo">UI/UX Designer</h4>
+        
                                 </div>
                             </div>
                         </div>
-                            <div class="carousel__elemento prueba">
-                                <div class="card3">
-                                    <div class="card-body">
-                                        <p class="card-text">It provides an amazing platform for constant conversations and direct feedback between managers.</p><br>
-                                        <img class="icono-perfil" src="/image/chica.png">
-                                        <h5 class="nombre ">Ronald Richards</h5>
-    
-                                        <img class="puntaje" src="/image/puntaje.png">
-                                        <h6 class="cargo">UI/UX Designer</h6>
-    
-                                    </div>
+                        <div class="carousel__elemento prueba">
+                            <div class="card3">
+                                <div class="card-body">
+                                    <p class="card-text">It provides an amazing platform for constant conversations and direct
+                                        feedback between managers.</p>
+                                    <img class="icono-perfil" src="/image/chica.jpg" alt="Imagen del usuario">
+                                    <h3 class="nombre ">Ronald Richards</h3>
+        
+                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                    <h4 class="cargo">UI/UX Designer</h4>
                                 </div>
                             </div>
-                                <div class="carousel__elemento prueba">
-                                    <div class="card3">
-                                        <div class="card-body">
-                                            <p class="card-text">One of the best additions to our feedback loop has been the
-                                                <br> company-wide adoption of Fellow.</p><br>
-                                            <img class="icono-perfil" src="/image/Picture.png">
-                                            <h5 class="nombre ">Ronald Richards</h5>
-    
-                                            <img class="puntaje" src="/image/puntaje.png">
-                                            <h6 class="cargo">UI/UX Designer</h6>
-    
-                                        </div>
-                                    </div>
-                                </div>
-    
                         </div>
-    
-                                <button aria-label="Siguiente" class="carousel__siguiente"> <i
-                                        class="fa fa-chevron-right"></i></button>
-    
+                        <div class="carousel__elemento prueba">
+                            <div class="card3">
+                                <div class="card-body">
+                                    <p class="card-text">One of the best additions to our feedback loop has been the 
+                                        company-wide adoption of Fellow.</p>
+                                    <img class="icono-perfil" src="/image/chico.jpg" alt="Imagen del usuario">
+                                    <h3 class="nombre ">Ronald Richards</h3>
+        
+                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                    <h4 class="cargo">UI/UX Designer</h4>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel__elemento prueba">
+                            <div class="card3">
+                                <div class="card-body">
+                                    <p class="card-text">It provides an amazing platform for constant conversations
+                                         and direct feedback between managers.</p>
+                                    <img class="icono-perfil" src="/image/chica.jpg" alt="Imagen del usuario">
+                                    <h3 class="nombre ">Ronald Richards</h3>
+        
+                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                    <h4 class="cargo">UI/UX Designer</h4>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel__elemento prueba">
+                            <div class="card3">
+                                <div class="card-body">
+                                    <p class="card-text">One of the best additions to our feedback loop has been the
+                                        company-wide adoption of Fellow.
+                                    </p>
+                                    <img class="icono-perfil" src="/image/chico.jpg" alt="Imagen del usuario">
+                                    <h3 class="nombre ">Ronald Richards</h3>
+        
+                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                    <h4 class="cargo">UI/UX Designer</h4>
+        
+                                </div>
+                            </div>
+                        </div>
+        
                     </div>
-                        
-                            <div role="tablisttt" class="carousel__indicadores"></div>
-                        
-                            
-    
-                 </div> 
-          </div>
-    <main>
-        <h1 class="titulo">Price plans</h1> 
-        <div class="plans">
-         
-        <div class="card1" >
-            <h5 class="titulo-plans"><b><br>Silver</b></h5>
-                       
-            <div class="card-body1">
-                <h1 class="card-title pricing-card-title" > $1.00</h1> <span class="text-muded" >/Hour</span>
-                <ul class="list-unstyled mt-3 mb-4">
-                    <li><i class="bi bi-check2" style="color: orange;"></i> <b>UI Design</b></li>
-                    <hr style="color: grey;">
-                    <li><i class="bi bi-check2" style="color: orange;"></i> <b>Web Development</b></li>
-                    <hr style="color: grey;"> 
-                    <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> Logo Design </li>
-                    <hr style="color: grey;">
-                    <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> Seo Optimization</li>
-                    <hr style="color: grey;">
-                    <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> WordPress Integration </li>
-                    <hr style="color: grey;">
-                    <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> 5 Websites</li>
-                    <hr style="color: grey;">
-                    <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> Unlimited User </li>
-                    <hr style="color: grey;">
-                    <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> 20 GB Bandwith </li>
-                    <hr style="color: grey;">
-
-                  </ul>
-             
-            </div>
-             </div>
-            
-             <div class="card1" >
-                <h5 class="titulo-plans"><b><br>Gold</b></h5>
-                           
-                <div class="card-body1">
-                    <h1 class="card-title pricing-card-title" > $50.00</h1> <span class="text-muded" >/Hour</span>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li><i class="bi bi-check2" style="color: orange;"></i> <b>UI Design</b></li>
-                        <hr style="color: grey;">
-                        <li><i class="bi bi-check2" style="color: orange;"></i> <b>Web Development</b></li>
-                        <hr style="color: grey;"> 
-                        <li><i class="bi bi-check2" style="color: orange;"></i> <b>Logo Design</b> </li>
-                        <hr style="color: grey;">
-                        <li><i class="bi bi-check2" style="color: orange;"></i> <b>Seo Optimization</b></li>
-                        <hr style="color: grey;">
-                        <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> WordPress Integration </li>
-                        <hr style="color: grey;">
-                        <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> 5 Websites</li>
-                        <hr style="color: grey;">
-                        <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> Unlimited User </li>
-                        <hr style="color: grey;">
-                        <li><i class="bi bi-x-lg" style="color: rgb(39, 37, 34);"></i> 20 GB Bandwith </li>
-                        <hr style="color: grey;">
-    
-                      </ul>
-                 
+        
+                    <button aria-label="Siguiente" class="carousel__siguiente"> <i class="bi bi-caret-right-fill"></i></button>
+        
                 </div>
-                 </div>
-
-                 <div class="card1" >
-                    <h5 class="titulo-plans"><b><br>Dimond</b></h5>
-                               
-                    <div class="card-body1">
-                        <h1 class="card-title pricing-card-title" > $80.00</h1> <span class="text-muded" >/Hour</span>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li><i class="bi bi-check2" style="color: orange;"></i> <b>UI Design</b></li>
-                            <hr style="color: grey;">
-                            <li><i class="bi bi-check2" style="color: orange;"></i> <b>Web Development</b></li>
-                            <hr style="color: grey;"> 
-                            <li><i class="bi bi-check2" style="color: orange;"></i> <b>Logo Design</b> </li>
-                            <hr style="color: grey;">
-                            <li><i class="bi bi-check2" style="color: orange;"></i> <b>Seo Optimization</b></li>
-                            <hr style="color: grey;">
-                            <li><i class="bi bi-check2" style="color: orange;"></i> <b>WordPress Integration</b> </li>
-                            <hr style="color: grey;">
-                            <li><i class="bi bi-check2" style="color: orange;"></i> <b>5 Websites</b></li>
-                            <hr style="color: grey;">
-                            <li><i class="bi bi-check2" style="color: orange;"></i> <b>Unlimited User</b> </li>
-                            <hr style="color: grey;">
-                            <li><i class="bi bi-check2" style="color: orange;"></i> <b>20 GB Bandwith</b> </li>
-                            <hr style="color: grey;">
         
-                          </ul>
-                     
-                    </div>
-                     </div>
-                     
-    </div>
-</main>
-<div class="container-interented">
-    <div class="saludos3">
-        <h1 class="section1-31" style="color: white;"><strong><br>Interested working <br>
-            with me?</strong></h1><br>
-
-    </div>
-
-    <div class="foto3">
-        <input type="submit" name=""  name="" class="btn btn-light btn-email "  value="Email Me">
-    </div>
-</div>
-    
-<div class="portafolio"> 
-    <h1 style="color: black;"><b>Blog</b></h1>
-    <h2 class="seguir-viendo1" style="color:black;"> see more <i class="bi bi-arrow-right-short"></i></h2>
-
-</div>
-<div class="carousel2">
-    <div class="carousel__contenedor2">
+                <div role="tablist" class="carousel__indicadores"></div>     
+            </article>
+        </section>
+        <!--Sección de Planes-->
+        <h2 class="titulo">Price plans</h2>
+        <section class="plans">
         
-        <div class="carousel__lista2">
-
-            <div class="carousel__elemento2 prueba">
-                <div class="card2" >
-                    <img class="card-img-top" src="/image/bog1.png" alt="Slider del Blog">
-                    <div class="card-body">
-                      <h5 class="card-title">How to make web tempates</h5>
-                      <p class="card-text1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Vitae nulla<br> diam in ac dictum a urna </p>
-                      <a href="#" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
+            <article class="card1">
+                <h3 class="titulo-plans">Silver</h3>
+        
+                <div class="card-body1">
+                    <h4 class="precio"> $1.00</h4> <span class="text-muded">/Hour</span>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li class="activo"><i class="bi bi-check2"></i>  UI Design</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2"></i> Web Development</li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i> Logo Design </li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i> Seo Optimization</li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i>  WordPress Integration </li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i>  5 Websites</li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i>  Unlimited User </li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i>  20 GB Bandwith </li>
+                        <hr class="divisor">
+        
+                    </ul>
+        
+                </div>
+            </article>
+        
+            <article class="card1">
+                <h3 class="titulo-plans">Gold</h3>
+        
+                <div class="card-body1">
+                    <h4 class="precio"> $50.00</h4>  <span class="text-muded">/Hour</span>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li class="activo"><i class="bi bi-check2" ></i> UI Design</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2" ></i> Web Development</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2" ></i> Logo Design</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2"></i> Seo Optimization</li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i> WordPress Integration </li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i> 5 Websites</li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i> Unlimited User </li>
+                        <hr class="divisor">
+                        <li><i class="bi bi-x-lg"></i> 20 GB Bandwith </li>
+                        <hr class="divisor">
+        
+                    </ul>
+        
+                </div>
+            </article>
+        
+            <article class="card1">
+                <h3 class="titulo-plans">Dimond</h3>
+        
+                <div class="card-body1">
+                    <h4 class="precio"> $80.00</h4>  <span class="text-muded">/Hour</span>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li class="activo"><i class="bi bi-check2"></i> UI Design</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2"></i> Web Development</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2"></i> Logo Design</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2"></i> Seo Optimization</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2"></i> WordPress Integration</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2"></i> 5 Websites</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2"></i> Unlimited User</li>
+                        <hr class="divisor">
+                        <li class="activo"><i class="bi bi-check2" ></i> 20 GB Bandwith</li>
+                        <hr class="divisor">
+        
+                    </ul>
+        
+                </div>
+            </article>
+        </section>
+        
+        <section class="container-interented">
+            <article class="saludos3">
+                <h2 class="section1-31" style="color: white;">Interested working 
+                        with me?</h2>
+        
+            </article>
+        
+            <article class="foto3">
+                <button  class="btn btn-light btn-email " value="Email Me">Email Me</button>
+            </div>
+            </article>
+        </section>
+        <!--Sección de Blog-->
+            <div class="portafolio">
+                <h2><b>Blog</b></h2>
+                <a class="seguir-viendo1"  href="#"  aria-label="Ir a otros Blog"> see more <i class="bi bi-arrow-right-short"></i></a>
+            
+            </div>
+            <section class="carousel2">
+                <article class="carousel__contenedor2">
+            
+                    <div class="carousel__lista2">
+            
+                        <div class="carousel__elemento2 prueba">
+                            <div class="card2">
+                                <img class="card-img-top" src="/image/portal.jpg" width="100px" height="210px" data-scr="/image/portal.jpg" alt="Slider del Blog">
+                                <div class="card-body">
+                                    <h3 class="card-title">How to make web tempates</h3>
+                                    <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                        nulla diam in ac dictum a urna </p>
+                                    <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel__elemento2 prueba">
+                            <div class="card2">
+                                <img class="card-img-top" src="/image/triangulo.jpg" width="100px" height="210px" data-scr="/image/triangulo.jpg" alt="Slider del Blog">
+                                <div class="card-body">
+                                    <h3 class="card-title">How to make web tempates</h3>
+                                    <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                        nulla diam in ac dictum a urna </p>
+                                    <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="carousel__elemento2 prueba">
+                            <div class="card2">
+                                <img class="card-img-top" src="/image/barrio.jpg" width="100px" height="210px" data-scr="/image/barrio.jpg" alt="Slider del Blog">
+                                <div class="card-body">
+                                    <h3 class="card-title">How to make web tempates</h3>
+                                    <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                        nulla diam in ac dictum a urna </p>
+                                    <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel__elemento2 prueba">
+                            <div class="card2">
+                                <img class="card-img-top" src="/image/portal.jpg" width="100px" height="210px" data-scr="/image/portal.jpg" alt="Slider del Blog">
+                                <div class="card-body">
+                                    <h3 class="card-title">How to make web tempates</h3>
+                                    <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                        nulla diam in ac dictum a urna </p>
+                                    <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-            </div>
-            <div class="carousel__elemento2 prueba">
-                <div class="card2" >
-                    <img class="card-img-top" src="/image/blog2.png" alt="Slider del Blog">
-                    <div class="card-body">
-                      <h5 class="card-title">How to make web tempates</h5>
-                      <p class="card-text1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Vitae nulla<br> diam in ac dictum a urna </p>
-                      <a href="#" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="carousel__elemento2 prueba">
-                <div class="card2" >
-                    <img class="card-img-top" src="/image/blog3.png" alt="Slider del Blog">
-                    <div class="card-body">
-                      <h5 class="card-title">How to make web tempates</h5>
-                      <p class="card-text1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Vitae nulla<br> diam in ac dictum a urna </p>
-                      <a href="#" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-            </div>
-            <div class="carousel__elemento2 prueba">
-                <div class="card2" >
-                    <img class="card-img-top" src="/image/bog1.png" alt="Slider del Blog">
-                    <div class="card-body">
-                      <h5 class="card-title">How to make web tempates</h5>
-                      <p class="card-text1">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Vitae nulla<br> diam in ac dictum a urna </p>
-                      <a href="#" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-            </div>
-            </div>
-                
-                    <div role="tablisttt" class="carousel__indicadores2"></div>
-                
-                    
-
-         </div> 
-  </div>
-  
-  <footer class="footer">
-      <div class="footer-left">
-       <p><i class="bi bi-envelope"style="color: rgb(36, 33, 33);"></i> mmr315@gmail.com</p> 
-    </div>
-    <div class="footer-center">
-        <p> © Copyright 2021 | mmrz315</p> 
-     </div>
-     <div class="footer-right">
-        <a ><i class="bi bi-instagram"></i></a>
-        <a ><i class="bi bi-telegram"></i></a>
-     </div>
-    
-</footer>
-
-  --> 
+            
+                    <div role="tablist" class="carousel__indicadores2"></div>
+            
+            
+            
+                </article>
+             
+            </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-left">
+         <a href="mailto:mmr315@gmail.com" title="Correo" ><i class="bi bi-envelope"></i> mmr315@gmail.com</a> 
+      </div>
+      <div class="footer-center">
+          <p> © Copyright 2021 | mmrz315</p> 
+       </div>
+       <div class="footer-right">
+          <a aria-label="Ir a Instagram" href="https://www.instagram.com/nivelics/?hl=es"><span class="bi bi-instagram"></span></a>
+          <a aria-label="Ir a Telegram" href="https://t.me/keylatriana"><span class="bi bi-telegram"></span></a>
+       </div>
+      
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js" integrity="sha256-chZm2VfM5r7hxFu6TGArcJmYU+Y19fT+mg58IBVCtdU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
     <script src="js/desplegable.js"></script>
     <script src="js/carrousel.js"></script>
+ 
    
 
    
