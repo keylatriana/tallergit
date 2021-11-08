@@ -5,18 +5,14 @@
     padding: 0px;
     margin: 0px;
 }
-
 html{
     width: 100%;
     height: 100%;
-    
-
-}
+    }
 .container-body{
     min-height: 100%;
     background-color: #E5E5E5;
 }
-
 .header{
     grid-area: header;
     height: 100%;
@@ -24,7 +20,6 @@ html{
     display: inline-flex;
     opacity: 0.9;
     color: black;
- 
 }
 h1{
     font-size: 50px;
@@ -39,7 +34,6 @@ h1{
     width: 70%;
     font-family: 'Poppins' sans-serif;
 }
-
 .container-saludos, .saludos3{
     width: 100%;
     max-width: 600px;
@@ -71,8 +65,6 @@ h1{
 .btn-twitter:hover{
     background-color: rgb(219, 14, 82) ;
 }
-
-
 .follow{
     display:inline-flex;
     margin-top: 20px;
@@ -80,11 +72,9 @@ h1{
     text-align: center;
    margin-bottom: 30px;
    width: 90%;
-  
 }
 .follow p{
     margin-top:7px;
-
 }
 .follow a{
     width: 36px;
@@ -99,7 +89,6 @@ h1{
     font-size: 15px;
     color: white;
 }
-
 .btn-send{
     width: 155 px;
     height: 45px;
@@ -117,23 +106,18 @@ h1{
     font-weight: bolder;
     margin-left: 20px;
 }
-
-
-.foto, .foto3{
+.foto3{
     width: 40%;
     max-width: 400px;
     padding: 20px;
-    margin-left: 0px;
-  
+    margin-left: 0px; 
 }
-nav{
+.nav{
     grid-area: nav;
     border-top-right-radius: 15px ;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     background-color: #C75000;
- 
-    
 }
 .titulo-logo{
     color: white;
@@ -145,7 +129,6 @@ nav{
     font-style: normal;
     margin-top: 10px;
     height: 30px;
- 
 }
 hr{
     margin-top: -5px;
@@ -153,12 +136,11 @@ hr{
     size: 5px;
     width: 100%;
 }
-
 nav .links li{
     list-style: none;
     size: 8px;
+    
 }
-
 nav .links {
     position: relative;
     top:60%;
@@ -169,12 +151,11 @@ nav .links {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -320px;
-  
+    margin-top: -320px; 
 }
-
 nav .links >li {
     display:inline-block;
+    overflow: hidden;
     margin-left: 20px;
     background-color: white;
     border-radius: 50%;
@@ -183,25 +164,19 @@ nav .links >li {
     line-height: 50px;
     text-align: center;
     font-size: 35px;
-    margin-bottom: 25px;
-  
+    margin-bottom: 25px; 
 }
 nav .links > li:hover{ 
     background-color: #FF2950;
-  
 }
-
-nav .links > li > i{
+nav .links > li > a{
    color: #5e5c5cbb;
    text-align: right;
    font-weight: 500;
    font-size: 30px;
-   
-    
 }
 nav .links > li > i:hover{
     color: white;
-    
  }
  .banderas{
     width: 600px;
@@ -213,12 +188,10 @@ nav .links > li > i:hover{
  .img-ban{
     margin-left: 5px;
  }
-
 #nav-toggle{
     position: absolute;
     top: -100px;
 }
-
 nav .menu_desplazante {
     display: none;
     position: absolute;
@@ -226,36 +199,27 @@ nav .menu_desplazante {
     top: 50%;
     transform: translateY(-50%);
 }
-
 nav .menu_desplazante .line, .line2, .line3{
     height: 3px;
     background-color: #ffff;
     margin: 5px;
     margin-right: 10px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
     transition: all .3s ease-in-out;
 }
 nav .menu_desplazante .line{
     width: 14px;
     margin-left: 20px;
-    
-
 }
 nav .menu_desplazante .line2{
     width: 30px;
-   
-    
 }
 nav .menu_desplazante .line3{
     width: 20px;
     margin-left: 15px;
-    
-    
 }
 .main{
     grid-area: main;
- 
 }
 .container-help{
     width: 78%;
@@ -269,23 +233,8 @@ nav .menu_desplazante .line3{
 }
 .help-icono{
     margin-top:10px;
-    
     margin-left: 0px;
 }
-/*.saludos1{
-    width: 50%;
-    max-width: 400px;
-    height: 380px;
-    padding-left: 30px;
-}
-
-.foto1{
-    width: 91%;
-    max-width: 500px;
-    padding: 20px;
-    margin-left: 80px;
-    
-}*/
 .section1{
     display: block;
    margin-left: 30px;
@@ -294,16 +243,13 @@ nav .menu_desplazante .line3{
     margin-left: 0px;
     width: 200px;
     margin-bottom: 20px;
-    color: white;
-   
+    color: white;   
  }
  .section1-3{
     width: 500px;
     margin-left: -160px;
     color: white;
     margin-top: 40px;
-    
-   
  }
  .section1-31{
     width: 500px;
@@ -332,7 +278,6 @@ main h4, h6{
     margin-top: 25px;
     margin-bottom: 31px;
 }
-
 .contrato{
     width: 91%;
     margin-top: 20px;
@@ -340,8 +285,7 @@ main h4, h6{
     margin-left: 5%;
     display: flex;
     opacity: 0.9;
-    border-radius: 35px;
-    
+    border-radius: 35px;   
 }
 .titulo{
     justify-content: center;
@@ -352,8 +296,6 @@ main h4, h6{
     font-family: 'Poppins',sans-serif;
     color: black;
     font-weight:bolder;
-    
- 
 }
 .card{
     background-color: #E5E5E5 ;
@@ -369,23 +311,18 @@ main h4, h6{
     height: 88px;
     margin-left: 32%;
     text-align: center;
-    
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-
 .portafolio{
     width: 91%;
-
     margin-top: 20px;
     padding: 30px 30px;
     margin-left: 5%;
     display: flex;
     opacity: 0.9;
     border-radius: 35px;
- 
 }
 .portafolio h2{
     color: black;
@@ -414,7 +351,6 @@ main h4, h6{
     width: 100%;
     margin-bottom: 100px;
 }
-
 .usuarios{
     margin-top: 10px;
     padding: 30px 30px;
@@ -428,8 +364,7 @@ main h4, h6{
     font-family: 'Poppins',sans-serif;
     color: white;
     font-weight:bolder;
-    margin-bottom: 10px;
-  
+    margin-bottom: 10px; 
 }
 .card3{
     width: 28rem; 
@@ -438,13 +373,11 @@ main h4, h6{
     background-color: white;
     margin-left: 20px;
 }
-
 .icono-perfil{
     width: 50px;
     height: 47px;
     margin-top: 20px;
     margin-left: 0px;
- 
 }
 .card-text{
     padding: 10px;
@@ -452,10 +385,8 @@ main h4, h6{
     font-size: 18px;
     color: black;
     font-weight: 600;
-
 }
 .nombre{
-    
     width: 180px;
     display: inline-flex;
     font-size: 16px;
@@ -472,13 +403,10 @@ main h4, h6{
     color: rgb(0, 0, 0);
 }
 .puntaje{
-
     margin-top: 10px;
-   
     margin-left: -15px;
-   display: inline-flex;
+    display: inline-flex;
 }
-
 .carousel1{
     width: 1100px;
     margin-left: 80px;
@@ -486,16 +414,12 @@ main h4, h6{
 .carousel__contenedor{
     position: relative;
     padding: 10px;
-   
-
 }
 .carousel__contenedor2{
     position: relative;
     width: 95%;
     margin-left: 12px;
     padding: 10px;
-  
-
 }
 .carousel__anterior, .carousel__siguiente{
     position: absolute;
@@ -512,34 +436,27 @@ main h4, h6{
     color: black;
     opacity: 28%;
     font-size: 15px;
-
 }
 .carousel__anterior:hover, .carousel__siguiente:hover{
- color: rgb(146, 146, 146);
-
- opacity: 70%;
+    color: rgb(146, 146, 146);
+    opacity: 70%;
 }
 .carousel__anterior{
     left: -40px;
-   
 }
 .carousel__siguiente{
    right: -40px;
 }
 .carousel__lista, .carousel__lista2{
     overflow: hidden;
-    
 }
-
 .carousel__elemento{
     text-align: center;
 }
 .carousel__elemento2{
     margin-left: 10px;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 .carousel__indicadores .glider-dot, 
 .carousel__indicadores2 .glider-dot{
  display:block;
@@ -563,8 +480,7 @@ main h4, h6{
     width: 30px;
     height: 10px;
    }
- 
- .plans{
+.plans{
     width: 85%;
     margin-top: 20px;
     padding: 30px 30px;
@@ -582,7 +498,6 @@ main h4, h6{
     margin-left: 20px;
     align-items: center;
     justify-content: center;
-
 }
 .card-body1{
     height: 430px;
@@ -592,14 +507,12 @@ main h4, h6{
 text-align: left;
 height: 20px;
 font-family: 'Poppins'sans-serif;
-
 }
 .divisor{
     margin-top: 5px;
     background-color: rgba(170, 166, 166, 0.349);
     width: 100%;
 }
-
 .titulo-plans{
     background-color: #FF9B70;
     width: 335px;
@@ -611,7 +524,6 @@ font-family: 'Poppins'sans-serif;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
 .precio{
      font-weight: 700;
      font-size: 40px;
@@ -621,8 +533,7 @@ font-family: 'Poppins'sans-serif;
 }
 .text-muded{
     font-size: 20px;
-    font-weight: 500;
-   
+    font-weight: 500;  
 }
 .activo{
     font-weight: bolder;
@@ -631,8 +542,6 @@ font-family: 'Poppins'sans-serif;
     font-weight: bolder;
     color: orange;
 }
-
-
 .container-interented{
     width:1180px;
     height: 224px;
@@ -655,8 +564,6 @@ font-family: 'Poppins'sans-serif;
     font-size: 18px;
     font-weight: 600;
 }
-
-
 .card2{
     background-color:#F9F9F9;
     border: none;
@@ -664,25 +571,20 @@ font-family: 'Poppins'sans-serif;
     width: 290px;
     margin-left: 10px;
     text-align: center;
-
 }
 .card-img-top{
     padding: 10px;
     border-radius: 15px;
-
 }
 .card-title{
     font-size: 16px;
     font-weight: 600;
     color: black;
-    
-   
 }
 .card-text1{
     font-size: 12px;
     color: rgba(36, 35, 35, 0.822);
     font-family: 'Poppins',sans-serif;
-    
 }
 .btn-blog{
     width: 43px;
@@ -695,9 +597,7 @@ font-family: 'Poppins'sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: grey;
-  
 }
-
 .footer{
     grid-area: footer;
     display: flex;
@@ -719,12 +619,10 @@ font-family: 'Poppins'sans-serif;
    text-decoration: none;
    font-weight: 600;
 }
-
 .footer-center{
     margin-top: 2%;
     width: 400px;
-    text-align: center;
-    
+    text-align: center;   
 }
 .footer-center p{
    color: #222222;
@@ -735,7 +633,6 @@ font-family: 'Poppins'sans-serif;
     margin-top: 2%;
     width: 400px;
     text-align:right;
-    
 }
 .footer-right span{
    color: #222222;
@@ -743,7 +640,6 @@ font-family: 'Poppins'sans-serif;
    margin-left: 20px;
    font-weight: 600;
 }
-
 .container-body{
     display: grid;
     gap: 10px;
@@ -752,15 +648,13 @@ font-family: 'Poppins'sans-serif;
     "main main"   auto
     "footer footer"40px /70px auto;
 }
-@media screen and (max-width: 540px){
+@media only screen and (max-width: 600px) {
     html {
-
         overflow-x: hidden;
     }
     body{
         overflow-x: hidden;
      }
-
     .container-body{
         display: grid;
         gap: 10px;
@@ -769,10 +663,8 @@ font-family: 'Poppins'sans-serif;
         "nav" 
         "header"  
         "main"   
-        "footer "70px/100%;
-       
+        "footer "70px/100%; 
     }
- 
     .header{
         padding: 0px 5px;
     } 
@@ -781,29 +673,29 @@ font-family: 'Poppins'sans-serif;
         font-size: 30px;
         width: 90%;
     }
-.parrafo-saludos{
+    .parrafo-saludos{
         font-size: 16px;
         font-weight: 400;
         width: 90%;
         line-height: 20px;
     }
-     
-     .container-saludos{
+
+    .container-saludos{
        text-align: left;
        margin-top: 60px;
        margin-left: 20px;
-     }
-     .follow {
+    }
+    .follow {
         margin-left: -10px;
     }
-     .follow p{
+    .follow p{
         display: none;
     }
-     .foto{
+    .foto{
          display: none;
          visibility: hidden;
-     }
-     .btn-send{
+    }
+    .btn-send{
         width: 120px;
         margin-left: 20px;
     }
@@ -811,305 +703,263 @@ font-family: 'Poppins'sans-serif;
         width: 120px;
         margin-left: 5px;
     }
-        nav{
-            position: fixed;
-            z-index: 20;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 55px;
-            border-top-right-radius: 0px ;
-            border-bottom-right-radius: 0px;
-            border-bottom-left-radius: 0px;
-            background: #C75000;
-            opacity: 1;
-            margin-top: 0px;
-            } 
-    
-        hr{
-            visibility: hidden;
+    .nav{
+        position: fixed;
+        z-index: 20;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 55px;
+        border-top-right-radius: 0px ;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background: #C75000;
+        opacity: 1;
+        margin-top: 0px;
         } 
-        nav .logo_Principal strong{
-            font-size: 40px;
-            margin-left: -10px;
-        } 
-        nav .links__menu i{
-            margin-left: -3px;
-            opacity: 1;
-            font-size: 15px;
-        }
-    
-        nav .links > li {
-            margin-top: 7px;
-            margin-left: -10px;
-        }
-    
-        nav .links{
-            position: fixed;
-            z-index: 9;
-            top: 55px;
-            margin-left: -100%;
-            flex-direction: column;
-            height: auto;
-            width: 20%;
-            background-color: rgba(214, 118, 8, 0.7);
-            overflow: hidden;
-            transition: all .5s ease-in-out;
-            text-align: left;
-            padding: 0px 20px 0px 20px;
-            margin-top: 0px;
-        }
-    
-        nav .menu__links{
-            margin: 0;
-            width: 100%;
-        }
-    
-    
-        
-        nav :checked ~ .links{
-            margin-left: 0;
-        }
-    
-        nav .menu_desplazante{
-            display: block;
-        }
-        .banderas{
-            display: none;
-            visibility: hidden;
-        }
-        .container-help{
-            margin-left: 0px;
-            width: 100%;
-            height: 600px;
-           
-        }
-        .help-icono{
-            width: 299px;
-            height: 228px;
-            margin-top: 340px;
-            margin-left: 0px;
-        }
-        .numero{
-            font-size: 38px;
-            text-align: center;
-        }
-        .section1{
-            display: block;
-            height: 400px;
-        }
-        .section1-1{
-            width: 500px;
-            height: 100px;
-            margin-left: -190px;
-            text-align: center;
-            
-        }
-        .star{
-            margin-top: 100px;
-            margin-bottom: 20px;
-        }
-        
-        .section1-2{
-           width:200px;
-           display: block;
-           margin-top: 30px;
-           margin-bottom: 40px;
-           margin-left: -170px;
-           text-align: center;
-        }
-        .section1-3 {
-           width: 300px;
-           font-size: 24px;
-           display: block;
-           text-align: left;
-           margin-top: -20px;
-           margin-left: -160px;
-        }
-        .parr{
-           margin-left: -235px;
-           width: 320px;
-           font-size: 16px;
-           text-align: center;
-        }
-       .contrato{
-           display: block;
-           margin-left:5px;
-       }
-      
-            .portafolio{
-               height: 100px;
-            } 
-            .portafolio h2{
-             margin-left: -20px;
-            }
-            .row{
-            
-                position: relative;
-       
-            }
-            .galeria{
-               width: 100%;
-               display:flexbox;
-               margin-bottom: 0px;
-           }
-       .col-lg-4{
-           
-           width: 180px;
-           height: 200px;
-       }
-      .seguir-viendo{
-          margin-top: 640px;
-          margin-left: -20px;
-          font-size: 14px;
-          color: burlywood;
-       }
-       
-       
-       .card3{
-           width: 290px; 
-           height: 200px;
-           margin-left: 5px;
-           border-radius: 25px;
-           
-       }
-       
-       .card-text{
-           font-size:14px;
-       
-       }
-       .icono-perfil{
-           margin-top: 0px;
-           width: 30px;
-           height: 30px;
-           margin-left: -20px;
-       }
-       .nombre{
-           font-size: 13px;
-           width: 130px;
-           
-       }
-       .cargo{
-           margin-top: -5px;
-           font-size: 13px;
-           margin-left: 40px;
-       }
-       .puntaje{
-           margin-left: -30px;
-           
-       }
-    
-       .carousel1{
-           width: 320px;
-           margin-left: -10px;
-       }
-       
-       .carousel__siguiente,.carousel__anterior{
-           display: none;
-       }
-       .plans{
-            display: block;
-            align-content: center;
-           }
-           
-           .card-body1{
-           
-               padding: 0px 45px 0px 45px;
-           }
-       
-           .card1{
-               width: 300px;
-               margin-left: -28px;
-               margin-top: 20px;
-           }
-            .titulo1{
-                font-size: 20px;
-            }
-           .titulo-plans{
-                width: 300px;
-                font-size: 25px;
-                font-weight: 700;
-           }
-           
-           .precio{
-                margin-left: 35px;
-                font-size: 30px;
-                text-align: center;
-                margin-bottom: -3px;
-           }
-       
-       .container-interented{
-           width:100%; 
-           margin-left: -5px;
-           display: block;
-           
-       }
-       .btn-email{
-           width: 229px;
-           height: 60px;
-           font-weight: 700;
-           margin-top: 40px;
-           justify-content: right;
-           
-       }
-       .foto3{
-           width: 10%;
-           padding: 20px;
-           margin-left: 20px;
-           
-       }
-       
-        .section1-31{
-          display:flex;
-          margin-top: -10px;
-          text-align: center;
-          margin-left: 0px;
-          font-size: 30px;
-          width: 100%;
-
-       }
-       .carousel2{
-           margin-left: -10px
-       }
-       .seguir-viendo1{
+    hr{
+        visibility: hidden;
+    } 
+    nav .logo_Principal strong{
+        font-size: 40px;
+        margin-left: -10px;
+    } 
+    nav .links__menu i{
+        margin-left: -3px;
+        opacity: 1;
+        font-size: 15px;
+    }
+    nav .links > li {
+        margin-top: 7px;
+        margin-left: -10px;
+    }
+    nav .links{
+        position: fixed;
+        z-index: 9;
+        top: 55px;
+        margin-left: -100%;
+        flex-direction: column;
+        height: auto;
+        width: 20%;
+        background-color: rgba(214, 118, 8, 0.7);
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+        text-align: left;
+        padding: 0px 20px 0px 20px;
+        margin-top: 0px;
+    }
+    nav .menu__links{
+        margin: 0;
+        width: 100%;
+    }
+    nav :checked ~ .links{
+        margin-left: 0;
+    }
+    nav .menu_desplazante{
+        display: block;
+    }
+    .banderas{
         display: none;
         visibility: hidden;
-       }
-       .saludos3{
-           
-           height: 50px;
-           padding-left: 5px;
-           
-           
-       }
-       
-       footer{
-           display: flex;
-           flex-flow: row wrap;
-           padding: 20px 10px 10px 40px;
-           color: #ffff;
-           height: 170px;
-           background-color:  #F1F1F1;
-       }
-       .footer-left{
-          margin-left: -15px;
-           text-align: center;
-       }
-       
-       .footer-center{
+    }
+    .container-help{
+        margin-left: 0px;
+        width: 100%;
+        height: 600px;  
+    }
+    .help-icono{
+        width: 299px;
+        height: 228px;
+        margin-top: 340px;
+        margin-left: 0px;
+    }
+    .numero{
+        font-size: 38px;
+        text-align: center;
+    }
+    .section1{
+        display: block;
+        height: 400px;
+    }
+    .section1-1{
+        width: 500px;
+        height: 100px;
+        margin-left: -190px;
+        text-align: center;      
+    }
+    .star{
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }    
+    .section1-2{
+        width:200px;
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-left: -170px;
+        text-align: center;
+    }
+    .section1-3 {
+        width: 300px;
+        font-size: 24px;
+        display: block;
+        text-align: left;
+        margin-top: -20px;
+        margin-left: -160px;
+    }
+    .parr{
+        margin-left: -235px;
+        width: 320px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .contrato{
+        display: block;
+        margin-left:5px;
+    }  
+    .portafolio{
+        height: 100px;
+    } 
+    .portafolio h2{
+        margin-left: -20px;
+    }
+    .row{     
+        position: relative;
+    }
+    .galeria{
+        width: 100%;
+        height: 150px;
+        display:flexbox;
+        margin-bottom: 0px;
+        }
+    .col-lg-4{    
+        width: 180px;
+        height: 200px;
+    }
+    .seguir-viendo{
+        margin-top: 640px;
+        margin-left: -20px;
+        font-size: 14px;
+        color: rgb(19, 18, 18);
+    }     
+    .card3{
+        width: 290px; 
+        height: 200px;
+        margin-left: 5px;
+        border-radius: 25px;     
+    }   
+    .card-text{
+        font-size:14px;
+    }
+    .icono-perfil{
+        margin-top: 0px;
+        width: 30px;
+        height: 30px;
+        margin-left: -20px;
+    }
+    .nombre{
+        font-size: 13px;
+        width: 130px;     
+    }
+    .cargo{
+        margin-top: -5px;
+        font-size: 13px;
+        margin-left: 40px;
+    }
+    .puntaje{
+        margin-left: -30px;      
+    }
+    .carousel1{
+        width: 320px;
+        margin-left: -10px;
+    }   
+    .carousel__siguiente,.carousel__anterior{
+        display: none;
+    }
+    .plans{
+        display: block;
+        align-content: center;
+    }      
+    .card-body1{       
+        padding: 0px 45px 0px 45px;
+    }   
+    .card1{
+        width: 300px;
+        margin-left: -28px;
+        margin-top: 20px;
+    }
+    .titulo1{
+        font-size: 20px;
+    }
+    .titulo-plans{
+        width: 300px;
+        font-size: 25px;
+        font-weight: 700;
+    }       
+    .precio{
+        margin-left: 35px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: -3px;
+    }   
+    .container-interented{
+        width:100%; 
+        margin-left: -5px;
+        display: block;       
+    }
+    .btn-email{
+        width: 229px;
+        height: 60px;
+        font-weight: 700;
+        margin-top: 40px;
+        justify-content: right;      
+    }
+    .foto3{
+        width: 10%;
+        padding: 20px;
+        margin-left: 20px;      
+    }   
+    .section1-31{
+        display:flex;
+        margin-top: -10px;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 30px;
+        width: 100%;
+    }
+    .carousel2{
+        margin-left: -10px
+    }
+    .seguir-viendo1{
+        display: none;
+        visibility: hidden;
+    }
+    .saludos3{     
+        height: 50px;
+        padding-left: 5px;
+    }   
+    footer{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 20px 10px 10px 40px;
+        color: #ffff;
+        height: 170px;
+        background-color:  #F1F1F1;
+    }
+    .footer-left{
         margin-left: -15px;
-           margin-top: 15%;
-           width: 300px;
-           text-align: center;
-          }
-       
-       .footer-right{
+        text-align: center;
+    }   
+    .footer-center{
         margin-left: -15px;
-           margin-top: -85px;
-           width: 300px;
-           text-align:center;
-          
-       }
-       
-       
-       }
+        margin-top: 15%;
+        width: 300px;
+        text-align: center;
+    }   
+    .footer-right{
+        margin-left: -15px;
+        margin-top: -85px;
+        width: 300px;
+        text-align:center;     
+    }     
+}

@@ -7,45 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Author: Keyla Triana, Category: practica">
     <title>Prueba</title>
-   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="preload">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" rel="preload">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css" rel="preload">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" rel="preload">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+        rel="preload">
     <!--Estilos para css-->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css" media="print" onload="this.media='all'">
     <link rel=" icon " href="image/Nivelics.ico">
-    
 </head>
-
-<body class="container-body"> 
-    <header class="header">
-        <div class="container-saludos">
-
-            <h2>Hi!</h2>
-            <h1>I’m Mohammad Reza. 
-                a Frontend developer.</h1>
-            <p class="parrafo-saludos" >Frontend developer based in tehran, Iran.
-                I am coding with a clean and beautiful problem 
-                solving in mind.</p> 
-                <div class="follow">
-                    <p>Follow me</p>
-                   <a class="btn-facebook" aria-label="Ir a Facebook" href="https://www.facebook.com/Nivelics" ><span class="bi bi-facebook"></span></a>
-                   <a class="btn-twitter" aria-label="Ir a Twitter" href="https://twitter.com/Nivelics"><span class="bi bi-twitter"></span></a>
-                   <a class="btn-instagram" aria-label="Ir a Instagram" href="https://www.instagram.com/nivelics/?hl=es"><span class="bi bi-instagram"></span></a>
-                   <a class="btn-telegram" aria-label="Ir a Telegram" href="https://t.me/keylatriana"><span class="bi bi-telegram"></span></a>
-                </div>
-                    <button class="btn btn-warning btn-send"  value="Send Request">Send Request</button>
-                    <button class="btn btn-warning btn-descarga"  value="Download CV">Download CV</button>
-        </div>    
-          
-              <img class=" foto" src="/image/foto-perfil.png" data-scr="/image/foto-perfil.png" alt="" width= "362px"; height="330px;">
-       
-     
-    </header>
+<body class="container-body">
     <nav class="nav">
         <h2 class="titulo-logo">logo</h2>
-        <hr/>  
+        <hr/>
         <input id="nav-toggle" type="checkbox">
         <label for="nav-toggle" class="menu_desplazante">
             <div class="line"></div>
@@ -53,166 +27,260 @@
             <div class="line3"></div>
         </label>
         <ul class=" nav-item links" id="barra__menu">
-            <li class="menu__links"><i class="bi bi-house-door"></i></li>
-            <li class="menu__links "><i class="bi bi-person"></i></li>
-            <li class="menu__links "><i class="bi bi-briefcase"></i></li>
-            <li class="menu__links "><i class="bi bi-card-text"></i></li>
-            <li class="menu__links "><i class="bi bi-chat-dots"></i></li>
-           
-        
+            <li class="menu__links"><a aria-label="Ir a la Pagina principal" href="#">
+                    <i class="bi bi-house-door"></i>Pagina pricipal</a></li>
+            <li class="menu__links"><a aria-label="Ir al perfil de trabajo" href="#">
+                    <i class="bi bi-person"></i>Perfil de trabajo</a></li>
+            <li class="menu__links"><a aria-label="Ir a los proyectos desarrolados" href="#">
+                    <i class="bi bi-briefcase"></i>Proyectos desarrollados</a></li>
+            <li class="menu__links"><a aria-label="Ir a Contacto" href="#">
+                    <i class="bi bi-card-text"></i>Contacto</a></li>
+            <li class="menu__links"><a aria-label="Ir al Chat de Grupo" href="#">
+                    <i class="bi bi-chat-dots"></i>Chat Grupal</a></li>
         </ul>
         <div class="banderas">
-            <img class="img-ban" src="/image/bandera-ing.jpg" data-scr="/image/bandera-ing.jpg"  width="25px;" height="17px;" alt="">
-            <img class="img-ban" src="/image/bandera.jpg" data-scr="/image/bandera.jpg"  width="25px;" height="17px;" alt="">
+            <a href="#" aria-label="Tener idioma Ingles"><picture>
+                <source srcset="image/bandera-ing.webp" type="image/webp">
+                <img class="img-ban" src="image/bandera-ing.jpg" data-scr="image/bandera-ing.jpg" width="25"
+                height="17" alt="Idioma Ingles">
+            </picture> </a>
+            <a href="#" aria-label="Tener Idioma Castellano"><picture>
+                <source srcset="image/bandera.webp" type="image/webp">
+                <img class="img-ban" src="image/bandera.jpg" data-scr="image/bandera.jpg" width="25" height="17"
+                alt="idioma Castellano">
+            </picture></a>
         </div>
-  
-           
-    
-     </nav>
+    </nav>
+    <header class="header">
+        <div class="container-saludos">
+            <h2>Hi!</h2>
+            <h1>I’m Mohammad Reza.
+                a Frontend developer.</h1>
+            <p class="parrafo-saludos">Frontend developer based in tehran, Iran.
+                I am coding with a clean and beautiful problem
+                solving in mind.</p>
+            <nav class="follow">
+                <p>Follow me</p>
+                <a class="btn-facebook" aria-label="Ir a Facebook" rel="nofollow noopener" target="_blank"
+                    href="https://www.facebook.com/Nivelics"><span class="bi bi-facebook"></span></a>
+                <a class="btn-twitter" aria-label="Ir a Twitter" rel="nofollow noopener" target="_blank"
+                    href="https://twitter.com/Nivelics"><span class="bi bi-twitter"></span></a>
+                <a class="btn-instagram" aria-label="Ir a Instagram" rel="nofollow noopener" target="_blank"
+                    href="https://www.instagram.com/nivelics/?hl=es"><span class="bi bi-instagram"></span></a>
+                <a class="btn-telegram" aria-label="Ir a Telegram" rel="nofollow noopener" target="_blank"
+                    href="https://t.me/keylatriana"><span class="bi bi-telegram"></span></a>
+            </nav>
+            <button class="btn btn-warning btn-send" value="Send Request">Send Request</button>
+            <button class="btn btn-warning btn-descarga" value="Download CV">Download CV</button>
+        </div>
+        <picture>
+            <source srcset="image/foto-perfil.webp" type="image/webp">
+            <img class="foto" src="image/foto-perfil.png" data-scr="image/foto-perfil.png"  width="362" 
+            height="330" alt="Foto de Perfil">
+        </picture>
+    </header>
     <main class="main">
         <section class="container-help">
-        
-            <img class="help-icono" src="/image/computadora.png" data-scr="/image/computadora.png" width= "430px;"
-            height= "329px;" alt="">
-        
+            <picture>
+                <source srcset="image/computadora.webp" type="image/webp">
+                <img class="help-icono" src="image/computadora.png" data-scr="image/computadora.png" width="430" height="329"
+                    alt="Experto en tecnologia">
+            </picture>
             <div class="section1-1">
                 <h2 class="numero">120+</h2>
                 <p>Completed Projects</p>
             </div>
             <article class="section1">
                 <div class="section1-2">
-                    <img class="star" src="/image/star.png" data-scr="/image/star.png" width= "130px;"
-                    height= "30px;" alt="">
+                    <picture>
+                        <source srcset="image/star.webp" type="image/webp">
+                        <img class="star" src="image/star.png" data-scr="image/star.png" width="130" height="30"
+                            alt="puntaje de revisiones">
+                    </picture>
                     <p>Positive Review’s</p>
                 </div>
-        
                 <h2 class="section1-3">Glad to Help You!</h2>
                 <p class="parr">As a web developer, I'm very keen on learning
                     new and pioneering technologies, programming languages, and development
                     techniques.</p>
             </article>
         </section>
-
-       <!-- Sección ¿Por qué contratarme?--> 
-
+        <!-- Sección ¿Por qué contratarme?-->
         <h2 class="titulo">Why Hire Me?</h2>
         <section class="contrato">
             <article class="card">
-                <img class="card-img-top img-contrato" src="/image/comunicar.png"  data-scr="/image/comunicar.png" alt="Card image cap">
+                <picture>
+                    <source srcset="image/comunicar.webp" type="image/webp">
+                    <img class="card-img-top img-contrato" src="image/comunicar.png" data-scr="image/comunicar.png" width="75"
+                        height="68" alt=" Imagen de comunicativo">
+                </picture>
                 <div class="card-body">
                     <h3>Communicative</h3>
+                    <p> Amet minim mollit non
+                        deserunt ullamco est sit
+                        aliqua dolor do amet sint.</p>
+                </div>
+            </article>
+            <article class="card">
+                <picture>
+                    <source srcset="image/profesional.webp" type="image/webp">
+                    <img class="card-img-top img-contrato" src="image/profesional.png" data-scr="image/profesional.png" width="75"
+                        height="68" alt=" Imagen  de profesional ">
+                </picture>
+                <div class="card-body">
+                    <h3>Professional</h3>
                     <p> Amet minim mollit non
                         deserunt ullamco est sit
                         aliqua dolor do amet sint. </p>
                 </div>
             </article>
             <article class="card">
-                <img class="card-img-top img-contrato" src="/image/profesional.png" data-scr="/image/profesional.png" alt="Card image cap">
-                <div class="card-body">
-                    <h3>Professional</h3>
-                    <p> Amet minim mollit non 
-                        deserunt ullamco est sit 
-                        aliqua dolor do amet sint. </p>
-                </div>
-            </article>
-            <article class="card">
-                <img class="card-img-top img-contrato" src="/image/colaboracion.png" data-scr="/image/colaboracion.png" alt="Card image cap">
+                <picture>
+                    <source srcset="image/colaboracion.webp" type="image/webp">
+                    <img class="card-img-top img-contrato" src="image/colaboracion.png" data-scr="image/colaboracion.png" width="75"
+                        height="68" alt=" Imagen de colaborativo">
+                </picture>
                 <div class="card-body">
                     <h3>Collaborative​</h3>
-                    <p> Amet minim mollit non 
-                        deserunt ullamco est sit 
+                    <p> Amet minim mollit non
+                        deserunt ullamco est sit
                         aliqua dolor do amet sint. </h2>
                     </p>
                 </div>
             </article>
             <article class="card">
-                    <img class="card-img-top img-contrato" src="/image/favorito.png" data-scr="/image/favorito.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h3> Client’s Favourite</h3>
-                        <p> Amet minim mollit non 
-                            deserunt ullamco est sit 
-                            aliqua dolor do amet sint. </p>
-                    </div>
-                </article>
+                <picture>
+                    <source srcset="image/favorito.webp" type="image/webp">
+                    <img class="card-img-top img-contrato" src="image/favorito.png" data-scr="image/favorito.png" width="75" height="68"
+                        alt=" Imagen de clientes favoritos">
+                </picture>
+                <div class="card-body">
+                    <h3> Client’s Favourite</h3>
+                    <p> Amet minim mollit non
+                        deserunt ullamco est sit
+                        aliqua dolor do amet sint. </p>
+                </div>
+            </article>
         </section>
-
-     <!--Sección Portafolio -->
-        <div class="portafolio"> 
+        <!--Sección Portafolio -->
+        <div class="portafolio">
             <h2>Portafolio</h2>
-            <a class="seguir-viendo"href="#"  aria-label="Ir a otros Portafolios">see more <i class="bi bi-arrow-right-short"></i></a>
-
+            <a class="seguir-viendo" href="#" aria-label="Ir a otros Portafolios">see more <i
+                    class="bi bi-arrow-right-short"></i></a>
         </div>
         <section class="container">
-        <article class="row">
-        <div class="col-lg-4  ">
-            <img class="galeria" src="/image/plataforma.jpg" data-scr="/image/plataforma.jpg" alt="Portafolio de imagenes">
-          </div>
-          <div class="col-lg-4 ">
-            <img class="galeria" src="/image/company.jpg" data-scr="/image/company.jpg" alt="Portafolio de imagenes">
-          </div>
-          <div class="col-lg-4 ">
-            <img class="galeria" src="/image/contratos.jpg" data-scr="/image/contratos.jpg" alt="Portafolio de imagenes">
-          </div>
-          <div class="col-lg-4  ">
-            <img class="galeria"src="/image/menu.jpg" data-scr="/image/menu.jpg" alt="Portafolio de imagenes">
-          </div>
-          <div class="col-lg-4 ">
-            <img class="galeria"src="/image/mockup.jpg" data-scr="/image/mockup.jpg" alt="Portafolio de imagenes">
-          </div>
-          <div class="col-lg-4 ">
-            <img class="galeria" src="/image/invitacion.jpg" data-scr="/image/invitacion.jpg" alt="Portafolio de imagenes">
-          </div>
-          
-        </article> 
+            <article class="row">
+                <div class="col-lg-4">
+                    <picture>
+                        <source srcset="image/plataforma.webp" type="image/webp">
+                        <img class="galeria" src="image/plataforma.jpg" data-scr="image/plataforma.jpg" width="300" height="340"
+                            alt="Portafolio de Plataforma">
+                    </picture>
+                </div>
+                <div class="col-lg-4">
+                    <picture>
+                        <source srcset="image/company.webp" type="image/webp">
+                        <img class="galeria" src="image/company.jpg" data-scr="image/company.jpg" width="300" height="340"
+                            alt="Portafolio Company">
+                    </picture>
+                </div>
+                <div class="col-lg-4">
+                    <picture>
+                        <source srcset="image/contratos.webp" type="image/webp">
+                        <img class="galeria" src="image/contratos.jpg" data-scr="image/contratos.jpg" width="300" height="340"
+                            alt="Portafolio de Contratos">
+                    </picture>
+                </div>
+                <div class="col-lg-4">
+                    <picture>
+                        <source srcset="image/menu.webp" type="image/webp">
+                        <img class="galeria" src="image/menu.jpg" data-scr="image/menu.jpg" width="300" height="340"
+                            alt="Portafolio de Menu">
+                    </picture>
+                </div>
+                <div class="col-lg-4 ">
+                    <picture>
+                        <source srcset="image/mockup.webp" type="image/webp">
+                        <img class="galeria" src="image/mockup.jpg" data-scr="image/mockup.jpg" width="300" height="340"
+                            alt="Portafolio de Mockup">
+                    </picture>
+                </div>
+                <div class="col-lg-4 ">
+                    <picture>
+                        <source srcset="image/invitacion.webp" type="image/webp">
+                        <img class="galeria" src="image/invitacion.jpg" data-scr="image/invitacion.jpg" width="300" height="340"
+                            alt="Portafolio de Invitación">
+                    </picture>
+                </div>
+            </article>
         </section>
-
         <!--Sección de clientes-->
         <section class="usuarios">
             <h2 class="titulo1"> I’m Loved By Users AndClients Worldwide </h2>
-        
             <article class="carousel1">
                 <div class="carousel__contenedor">
-                    <button aria-label="Anterior" class="carousel__anterior"><i class="bi bi-caret-left-fill"></i></button>
+                    <button aria-label="Anterior" class="carousel__anterior"><i
+                            class="bi bi-caret-left-fill"></i></button>
                     <div class="carousel__lista">
-        
                         <div class="carousel__elemento prueba">
                             <div class="card3">
                                 <div class="card-body">
-                                    <p class="card-text">One of the best additions to our feedback loop has been the <br>
+                                    <p class="card-text">One of the best additions to our feedback loop has been the
+                                        <br>
                                         company-wide adoption of Fellow.</p>
-                                    <img class="icono-perfil" src="/image/chico.jpg" alt="Imagen del usuario">
-                                    <h3 class="nombre ">Ronald Richards</h3>
-        
-                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                        <picture>
+                                            <source srcset="image/chico.webp" type="image/webp">
+                                            <img class="icono-perfil" src="image/chico.jpg" data-scr="image/chico.jpg" width="100"
+                                             height="22" alt="Imagen del usuario">
+                                        </picture>
+                                        <h3 class="nombre ">Ronald Richards</h3>
+                                        <picture>
+                                            <source srcset="image/puntaje.webp" type="image/webp">
+                                            <img class="puntaje" src="image/puntaje.png" data-scr="image/puntaje.png" width="100" 
+                                            height="22" alt="puntaje del usuario">
+                                        </picture>
                                     <h4 class="cargo">UI/UX Designer</h4>
-        
                                 </div>
                             </div>
                         </div>
                         <div class="carousel__elemento prueba">
                             <div class="card3">
                                 <div class="card-body">
-                                    <p class="card-text">It provides an amazing platform for constant conversations and direct
+                                    <p class="card-text">It provides an amazing platform for constant conversations and
+                                        direct
                                         feedback between managers.</p>
-                                    <img class="icono-perfil" src="/image/chica.jpg" alt="Imagen del usuario">
-                                    <h3 class="nombre ">Ronald Richards</h3>
-        
-                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
-                                    <h4 class="cargo">UI/UX Designer</h4>
+                                        <picture>
+                                            <source srcset="image/chica.webp" type="image/webp">
+                                            <img class="icono-perfil" src="image/chica.jpg" data-scr="image/chica.jpg" width="100" height="22"
+                                            alt="Imagen del usuario">
+                                        </picture>
+                                        <h3 class="nombre ">Ronald Richards</h3>
+                                        <picture>
+                                            <source srcset="image/puntaje.webp" type="image/webp">
+                                            <img class="puntaje" src="image/puntaje.png" data-scr="image/puntaje.png" width="100"
+                                             height="22" alt="puntaje del usuario">
+                                        </picture>
+                                        <h4 class="cargo">UI/UX Designer</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel__elemento prueba">
                             <div class="card3">
                                 <div class="card-body">
-                                    <p class="card-text">One of the best additions to our feedback loop has been the 
+                                    <p class="card-text">One of the best additions to our feedback loop has been the
                                         company-wide adoption of Fellow.</p>
-                                    <img class="icono-perfil" src="/image/chico.jpg" alt="Imagen del usuario">
-                                    <h3 class="nombre ">Ronald Richards</h3>
-        
-                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                        <picture>
+                                            <source srcset="image/chico.webp" type="image/webp">
+                                            <img class="icono-perfil" src="image/chico.jpg" data-scr="image/puntaje.png" width="100" 
+                                            height="22" alt="Imagen del usuario">
+                                        </picture>
+                                        <h3 class="nombre ">Ronald Richards</h3>
+                                        <picture>
+                                            <source srcset="image/puntaje.webp" type="image/webp">
+                                            <img class="puntaje" src="image/puntaje.png" data-scr="image/puntaje.png" width="100" 
+                                            height="22" alt="puntaje del usuario">
+                                        </picture>
                                     <h4 class="cargo">UI/UX Designer</h4>
-        
                                 </div>
                             </div>
                         </div>
@@ -220,13 +288,19 @@
                             <div class="card3">
                                 <div class="card-body">
                                     <p class="card-text">It provides an amazing platform for constant conversations
-                                         and direct feedback between managers.</p>
-                                    <img class="icono-perfil" src="/image/chica.jpg" alt="Imagen del usuario">
-                                    <h3 class="nombre ">Ronald Richards</h3>
-        
-                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                        and direct feedback between managers.</p>
+                                        <picture>
+                                            <source srcset="image/chica.webp" type="image/webp">
+                                            <img class="icono-perfil" src="image/chica.jpg" data-scr="image/chica.jpg" width="100" 
+                                            height="22" alt="Imagen del usuario">
+                                        </picture>
+                                        <h3 class="nombre ">Ronald Richards</h3>
+                                        <picture>
+                                            <source srcset="image/puntaje.webp" type="image/webp">
+                                            <img class="puntaje" src="image/puntaje.png" data-scr="image/puntaje.png"  width="100"
+                                             height="22" alt="puntaje del usuario">
+                                        </picture>
                                     <h4 class="cargo">UI/UX Designer</h4>
-        
                                 </div>
                             </div>
                         </div>
@@ -236,36 +310,37 @@
                                     <p class="card-text">One of the best additions to our feedback loop has been the
                                         company-wide adoption of Fellow.
                                     </p>
-                                    <img class="icono-perfil" src="/image/chico.jpg" alt="Imagen del usuario">
+                                    <picture>
+                                        <source srcset="image/chico.webp" type="image/webp">
+                                        <img class="icono-perfil" src="image/chico.jpg" data-scr="image/chico.jpg" width="100" height="22"
+                                         alt="Imagen del usuario">
+                                    </picture>
                                     <h3 class="nombre ">Ronald Richards</h3>
-        
-                                    <img class="puntaje" src="/image/puntaje.png" width="100px" height="22px" alt="puntaje del usuario">
+                                    <picture>
+                                        <source srcset="image/puntaje.webp" type="image/webp">
+                                        <img class="puntaje" src="image/puntaje.png" data-scr="image/puntaje.png" width="100"
+                                        height="22" alt="puntaje del usuario">
+                                    </picture>
                                     <h4 class="cargo">UI/UX Designer</h4>
-        
                                 </div>
                             </div>
                         </div>
-        
                     </div>
-        
-                    <button aria-label="Siguiente" class="carousel__siguiente"> <i class="bi bi-caret-right-fill"></i></button>
-        
+                    <button aria-label="Siguiente" class="carousel__siguiente"> <i
+                            class="bi bi-caret-right-fill"></i></button>
                 </div>
-        
-                <div role="tablist" class="carousel__indicadores"></div>     
+                <div role="tablist" class="carousel__indicadores"></div>
             </article>
         </section>
         <!--Sección de Planes-->
         <h2 class="titulo">Price plans</h2>
         <section class="plans">
-        
             <article class="card1">
                 <h3 class="titulo-plans">Silver</h3>
-        
                 <div class="card-body1">
                     <h4 class="precio"> $1.00</h4> <span class="text-muded">/Hour</span>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li class="activo"><i class="bi bi-check2"></i>  UI Design</li>
+                        <li class="activo"><i class="bi bi-check2"></i> UI Design</li>
                         <hr class="divisor">
                         <li class="activo"><i class="bi bi-check2"></i> Web Development</li>
                         <hr class="divisor">
@@ -273,31 +348,27 @@
                         <hr class="divisor">
                         <li><i class="bi bi-x-lg"></i> Seo Optimization</li>
                         <hr class="divisor">
-                        <li><i class="bi bi-x-lg"></i>  WordPress Integration </li>
+                        <li><i class="bi bi-x-lg"></i> WordPress Integration </li>
                         <hr class="divisor">
-                        <li><i class="bi bi-x-lg"></i>  5 Websites</li>
+                        <li><i class="bi bi-x-lg"></i> 5 Websites</li>
                         <hr class="divisor">
-                        <li><i class="bi bi-x-lg"></i>  Unlimited User </li>
+                        <li><i class="bi bi-x-lg"></i> Unlimited User </li>
                         <hr class="divisor">
-                        <li><i class="bi bi-x-lg"></i>  20 GB Bandwith </li>
+                        <li><i class="bi bi-x-lg"></i> 20 GB Bandwith </li>
                         <hr class="divisor">
-        
                     </ul>
-        
                 </div>
             </article>
-        
             <article class="card1">
                 <h3 class="titulo-plans">Gold</h3>
-        
                 <div class="card-body1">
-                    <h4 class="precio"> $50.00</h4>  <span class="text-muded">/Hour</span>
+                    <h4 class="precio"> $50.00</h4> <span class="text-muded">/Hour</span>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li class="activo"><i class="bi bi-check2" ></i> UI Design</li>
+                        <li class="activo"><i class="bi bi-check2"></i> UI Design</li>
                         <hr class="divisor">
-                        <li class="activo"><i class="bi bi-check2" ></i> Web Development</li>
+                        <li class="activo"><i class="bi bi-check2"></i> Web Development</li>
                         <hr class="divisor">
-                        <li class="activo"><i class="bi bi-check2" ></i> Logo Design</li>
+                        <li class="activo"><i class="bi bi-check2"></i> Logo Design</li>
                         <hr class="divisor">
                         <li class="activo"><i class="bi bi-check2"></i> Seo Optimization</li>
                         <hr class="divisor">
@@ -309,17 +380,13 @@
                         <hr class="divisor">
                         <li><i class="bi bi-x-lg"></i> 20 GB Bandwith </li>
                         <hr class="divisor">
-        
                     </ul>
-        
                 </div>
             </article>
-        
             <article class="card1">
                 <h3 class="titulo-plans">Dimond</h3>
-        
                 <div class="card-body1">
-                    <h4 class="precio"> $80.00</h4>  <span class="text-muded">/Hour</span>
+                    <h4 class="precio"> $80.00</h4> <span class="text-muded">/Hour</span>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li class="activo"><i class="bi bi-check2"></i> UI Design</li>
                         <hr class="divisor">
@@ -335,115 +402,119 @@
                         <hr class="divisor">
                         <li class="activo"><i class="bi bi-check2"></i> Unlimited User</li>
                         <hr class="divisor">
-                        <li class="activo"><i class="bi bi-check2" ></i> 20 GB Bandwith</li>
+                        <li class="activo"><i class="bi bi-check2"></i> 20 GB Bandwith</li>
                         <hr class="divisor">
-        
                     </ul>
-        
                 </div>
             </article>
         </section>
-        
         <section class="container-interented">
             <article class="saludos3">
-                <h2 class="section1-31">Interested working 
-                        with me?</h2>
-        
+                <h2 class="section1-31">Interested working
+                    with me?</h2>
             </article>
-        
             <article class="foto3">
-                <button  class="btn btn-light btn-email " value="Email Me">Email Me</button>
-            </div>
+                <button class="btn btn-light btn-email " value="Email Me">Email Me</button>
+                </div>
             </article>
         </section>
         <!--Sección de Blog-->
-            <div class="portafolio">
-                <h2><b>Blog</b></h2>
-                <a class="seguir-viendo1"  href="#"  aria-label="Ir a otros Blog"> see more <i class="bi bi-arrow-right-short"></i></a>
-            
-            </div>
-            <section class="carousel2">
-                <article class="carousel__contenedor2">
-            
-                    <div class="carousel__lista2">
-            
-                        <div class="carousel__elemento2 prueba">
-                            <div class="card2">
-                                <img class="card-img-top" src="/image/portal.jpg" width="100px" height="210px" data-scr="/image/portal.jpg" alt="Slider del Blog">
-                                <div class="card-body">
-                                    <h3 class="card-title">How to make web tempates</h3>
-                                    <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-                                        nulla diam in ac dictum a urna </p>
-                                    <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel__elemento2 prueba">
-                            <div class="card2">
-                                <img class="card-img-top" src="/image/triangulo.jpg" width="100px" height="210px" data-scr="/image/triangulo.jpg" alt="Slider del Blog">
-                                <div class="card-body">
-                                    <h3 class="card-title">How to make web tempates</h3>
-                                    <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-                                        nulla diam in ac dictum a urna </p>
-                                    <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="carousel__elemento2 prueba">
-                            <div class="card2">
-                                <img class="card-img-top" src="/image/barrio.jpg" width="100px" height="210px" data-scr="/image/barrio.jpg" alt="Slider del Blog">
-                                <div class="card-body">
-                                    <h3 class="card-title">How to make web tempates</h3>
-                                    <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-                                        nulla diam in ac dictum a urna </p>
-                                    <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel__elemento2 prueba">
-                            <div class="card2">
-                                <img class="card-img-top" src="/image/portal.jpg" width="100px" height="210px"  data-scr="/image/portal.jpg" alt="Slider del Blog">
-                                <div class="card-body">
-                                    <h3 class="card-title">How to make web tempates</h3>
-                                    <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-                                        nulla diam in ac dictum a urna </p>
-                                    <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i class="bi bi-arrow-right"></i></a>
-                                </div>
+        <div class="portafolio">
+            <h2><b>Blog</b></h2>
+            <a class="seguir-viendo1" href="#" aria-label="Ir a otros Blog"> see more <i
+                    class="bi bi-arrow-right-short"></i></a>
+        </div>
+        <section class="carousel2">
+            <article class="carousel__contenedor2">
+                <div class="carousel__lista2">
+                    <div class="carousel__elemento2 prueba">
+                        <div class="card2">
+                            <picture>
+                                <source srcset="image/portal.webp" type="image/webp">
+                                <img class="card-img-top" src="image/portal.jpg" data-scr="image/portal.jpg" width="100" height="210" 
+                                    alt="Slider del Blog">
+                            </picture>
+                            <div class="card-body">
+                                <h3 class="card-title">How to make web tempates</h3>
+                                <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                    nulla diam in ac dictum a urna </p>
+                                <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i
+                                        class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-            
-                    <div role="tablist" class="carousel__indicadores2"></div>
-            
-            
-            
-                </article>
-             
-            </section>
+                    <div class="carousel__elemento2 prueba">
+                        <div class="card2">
+                            <picture>
+                                <source srcset="image/triangulo.webp" type="image/webp">
+                                <img class="card-img-top" src="image/triangulo.jpg" width="100" height="210" data-scr="image/triangulo.jpg"
+                                    alt="Slider del Blog">
+                            </picture>
+                            <div class="card-body">
+                                <h3 class="card-title">How to make web tempates</h3>
+                                <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                    nulla diam in ac dictum a urna </p>
+                                <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__elemento2 prueba">
+                        <div class="card2">
+                            <picture>
+                                <source srcset="image/barrio.webp" type="image/webp">
+                                <img class="card-img-top" src="image/barrio.jpg" width="100" height="210" data-scr="image/barrio.jpg"
+                                    alt="Slider del Blog">
+                            </picture>
+                            <div class="card-body">
+                                <h3 class="card-title">How to make web tempates</h3>
+                                <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                    nulla diam in ac dictum a urna </p>
+                                <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__elemento2 prueba">
+                        <div class="card2">
+                            <picture>
+                                <source srcset="image/portal.webp" type="image/webp">
+                                <img class="card-img-top" src="image/portal.jpg" width="100" height="210" data-scr="image/portal.jpg"
+                                    alt="Slider del Blog">
+                            </picture>
+                            <div class="card-body">
+                                <h3 class="card-title">How to make web tempates</h3>
+                                <p class="card-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                                    nulla diam in ac dictum a urna </p>
+                                <a href="#" aria-label="Ir a Blog" class="btn btn-light btn-blog"><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tablist" class="carousel__indicadores2"></div>
+            </article>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer-left">
-         <a href="mailto:mmr315@gmail.com" title="Correo" ><i class="bi bi-envelope"></i> mmr315@gmail.com</a> 
-      </div>
-      <div class="footer-center">
-          <p> © Copyright 2021 | mmrz315</p> 
-       </div>
-       <div class="footer-right">
-          <a aria-label="Ir a Instagram" href="https://www.instagram.com/nivelics/?hl=es"><span class="bi bi-instagram"></span></a>
-          <a aria-label="Ir a Telegram" href="https://t.me/keylatriana"><span class="bi bi-telegram"></span></a>
-       </div>
-      
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js" integrity="sha256-chZm2VfM5r7hxFu6TGArcJmYU+Y19fT+mg58IBVCtdU=" crossorigin="anonymous"></script>
+            <a href="mailto:mmr315@gmail.com" rel="nofollow noopener" target="_blank" title="Correo">
+                <i class="bi bi-envelope"></i> mmr315@gmail.com</a>
+        </div>
+        <div class="footer-center">
+            <p> © Copyright 2021 | mmrz315</p>
+        </div>
+        <div class="footer-right">
+            <a aria-label="Ir a Instagram" href="https://www.instagram.com/nivelics/?hl=es" rel="nofollow noopener" target="_blank">
+                <span class="bi bi-instagram"></span></a>
+            <a aria-label="Ir a Telegram" href="https://t.me/keylatriana" rel="nofollow noopener" target="_blank">
+                <span class="bi bi-telegram"></span></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"
+        integrity="sha256-chZm2VfM5r7hxFu6TGArcJmYU+Y19fT+mg58IBVCtdU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
     <script src="js/desplegable.js"></script>
     <script src="js/carrousel.js"></script>
- 
-   
-
-   
 </body>
-
-
 </html>
